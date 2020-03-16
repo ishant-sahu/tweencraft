@@ -1,0 +1,104 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.6",
+  "hash": "7fd6cf8dbdcd08bc5df6",
+  "publicPath": "/js/",
+  "outputPath": "/mnt/codebase/zoom-ui-collections/public",
+  "assetsByChunkName": {
+    "Home": "Home.bundle-client.js",
+    "UsersList": "UsersList.bundle-client.js",
+    "main": "bundle-client.js"
+  },
+  "assets": [
+    {
+      "name": "Home.bundle-client.js",
+      "size": 6102,
+      "chunks": [
+        "Home"
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "UsersList.bundle-client.js",
+      "size": 4931,
+      "chunks": [
+        "UsersList"
+      ],
+      "chunkNames": [
+        "UsersList"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "bundle-client.js",
+      "size": 1946130,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "bundle-client.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "bundle-client.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Home": {
+      "chunks": [
+        "Home"
+      ],
+      "assets": [
+        "Home.bundle-client.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "UsersList": {
+      "chunks": [
+        "UsersList"
+      ],
+      "assets": [
+        "UsersList.bundle-client.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
