@@ -31,7 +31,7 @@ const config = {
   entry: getEntry(),
   output: {
     path: path.resolve(__dirname, 'public'),
-    publicPath: '/js/',
+    publicPath: '/public/',
     filename: 'bundle-client.js'
   },
   plugins: getPlugins()

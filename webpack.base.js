@@ -1,9 +1,9 @@
 const LoadablePlugin = require('@loadable/webpack-plugin');
 const environment = require('./tools/environment');
 const isDev = environment.getEnvironment();
-
+console.log(isDev);
 module.exports = {
-  mode: 'development',
+  mode: isDev ? 'development' : 'production',
   module: {
     rules: [
       {
@@ -14,7 +14,7 @@ module.exports = {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env', '@babel/preset-react'],
-              plugins: ['@loadable/babel-plugin']
+              plugins: ['react-hot-loader/babel','@loadable/babel-plugin']
             }
           }
         ]
@@ -30,7 +30,8 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new LoadablePlugin()
-  ]
+  plugins: [new LoadablePlugin()],
+  resolve: {
+    alias: { 'react-dom': '@hot-loader/react-dom' }
+  }
 };

@@ -4,21 +4,24 @@ import { matchRoutes } from 'react-router-config';
 import Routes from './routes';
 import renderer from './helpers/renderer';
 import { webpackDevMiddleWare } from '../tools/webpack-middleware';
-import createStore from './helpers/createStore';
+import { configureStore } from './helpers/createStore';
 const app = express();
 
 app.use(express.static('public'));
 webpackDevMiddleWare(app);
 
 app.get('*', (req, res) => {
-  const store = createStore();
-
+  const { store } = configureStore({}, req.url);
+  try{
   const promises = (matchRoutes(Routes, req.path) || []).map(({ route }) => {
-    return route.loadData ? route.loadData(store.dispatch) : null;
+    return route.loadData ? route.loadData(store.dispatch) : Promise.resolve(null);
   });
-  Promise.all(promises).then((resp) => {
-    res.send(renderer(req, store));
-  });
+    Promise.all(promises).then(resp => {
+      res.send(renderer(req, store));
+    });
+  } catch(err) {
+    res.status(404).send('Not Found :(');
+  }
   
 });
 
