@@ -21,7 +21,10 @@ export default (req, store) => {
   );
   const html = `
           <html>
-          <head></head>
+          <head>
+          ${extractor.getLinkTags()}
+          ${extractor.getStyleTags()}
+          </head>
           <body>
               <div id="root">${content}</div>
               <script>

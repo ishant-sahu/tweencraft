@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { usersAction } from '../../actions';
+import styles from './styles.scss';
 
 class UsersList extends Component {
   componentDidMount() {
@@ -14,7 +15,7 @@ class UsersList extends Component {
   }
   render() {
     return (
-      <div>
+      <div className={styles.UsersList}>
         List of users
         <ul>{this.renderUsers()}</ul>
       </div>

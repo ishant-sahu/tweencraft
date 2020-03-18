@@ -2,18 +2,36 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.6",
-  "hash": "1aa38a6b829fe69bcfc9",
+  "hash": "ac73906f630f094c4123",
   "publicPath": "",
   "outputPath": "/mnt/codebase/zoom-ui-collections/build",
   "assetsByChunkName": {
-    "Home": "Home.bundle.js",
-    "UsersList": "UsersList.bundle.js",
+    "Home": [
+      "Home.css",
+      "Home.bundle.js"
+    ],
+    "UsersList": [
+      "UsersList.css",
+      "UsersList.bundle.js"
+    ],
     "main": "bundle.js"
   },
   "assets": [
     {
       "name": "Home.bundle.js",
-      "size": 7687,
+      "size": 8573,
+      "chunks": [
+        "Home"
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "Home.css",
+      "size": 73,
       "chunks": [
         "Home"
       ],
@@ -25,7 +43,19 @@
     },
     {
       "name": "UsersList.bundle.js",
-      "size": 6682,
+      "size": 7612,
+      "chunks": [
+        "UsersList"
+      ],
+      "chunkNames": [
+        "UsersList"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "UsersList.css",
+      "size": 50,
       "chunks": [
         "UsersList"
       ],
@@ -37,7 +67,7 @@
     },
     {
       "name": "bundle.js",
-      "size": 56020,
+      "size": 60568,
       "chunks": [
         "main"
       ],
@@ -77,6 +107,7 @@
         "Home"
       ],
       "assets": [
+        "Home.css",
         "Home.bundle.js"
       ],
       "children": {},
@@ -87,6 +118,7 @@
         "UsersList"
       ],
       "assets": [
+        "UsersList.css",
         "UsersList.bundle.js"
       ],
       "children": {},
@@ -100,5 +132,90 @@
       "debug": false
     }
   },
-  "children": []
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/zoom-ui-collections/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/pages/Home/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/zoom-ui-collections/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/pages/UsersList/styles.scss"
+    }
+  ]
 }

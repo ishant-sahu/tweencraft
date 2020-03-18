@@ -30,9 +30,7 @@ if (module.hot) {
   // Enable webpack hot module replacement for routes
   module.hot.accept('./routes', () => {
     try {
-      console.log("============================");
       const nextRoutes = require('./routes').default;
-      
       render(nextRoutes);
     } catch (error) {
       console.error(`==> 😭  Routes hot reloading error ${error}`);

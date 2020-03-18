@@ -7,10 +7,7 @@ const isDev = environment.getEnvironment();
 
 
 const getEntry = () => {
-  // Development
   let entry = ['webpack-hot-middleware/client?reload=true', './src/client.js'];
-
-  // production
   if (!isDev) entry = ['./src/client.js'];
 
   return entry;

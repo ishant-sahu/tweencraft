@@ -2,18 +2,37 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.6",
-  "hash": "3db04e22b674746bc95a",
+  "hash": "c64aee0719944f75a31d",
   "publicPath": "/public/",
   "outputPath": "/mnt/codebase/zoom-ui-collections/public",
   "assetsByChunkName": {
-    "Home": "Home.bundle-client.js",
-    "UsersList": "UsersList.bundle-client.js",
-    "main": "bundle-client.js"
+    "Home": [
+      "Home.css",
+      "Home.bundle-client.js"
+    ],
+    "UsersList": [
+      "UsersList.css",
+      "UsersList.bundle-client.js"
+    ],
+    "main": "bundle-client.js",
+    "vendors~Home~UsersList": "vendors~Home~UsersList.bundle-client.js"
   },
   "assets": [
     {
       "name": "Home.bundle-client.js",
-      "size": 25974,
+      "size": 27180,
+      "chunks": [
+        "Home"
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "Home.css",
+      "size": 73,
       "chunks": [
         "Home"
       ],
@@ -25,7 +44,19 @@
     },
     {
       "name": "UsersList.bundle-client.js",
-      "size": 6636,
+      "size": 7886,
+      "chunks": [
+        "UsersList"
+      ],
+      "chunkNames": [
+        "UsersList"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "UsersList.css",
+      "size": 50,
       "chunks": [
         "UsersList"
       ],
@@ -37,12 +68,24 @@
     },
     {
       "name": "bundle-client.js",
-      "size": 2101837,
+      "size": 2104158,
       "chunks": [
         "main"
       ],
       "chunkNames": [
         "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "vendors~Home~UsersList.bundle-client.js",
+      "size": 64331,
+      "chunks": [
+        "vendors~Home~UsersList"
+      ],
+      "chunkNames": [
+        "vendors~Home~UsersList"
       ],
       "info": {},
       "emitted": false
@@ -74,9 +117,12 @@
     },
     "Home": {
       "chunks": [
+        "vendors~Home~UsersList",
         "Home"
       ],
       "assets": [
+        "vendors~Home~UsersList.bundle-client.js",
+        "Home.css",
         "Home.bundle-client.js"
       ],
       "children": {},
@@ -84,9 +130,12 @@
     },
     "UsersList": {
       "chunks": [
+        "vendors~Home~UsersList",
         "UsersList"
       ],
       "assets": [
+        "vendors~Home~UsersList.bundle-client.js",
+        "UsersList.css",
         "UsersList.bundle-client.js"
       ],
       "children": {},
@@ -100,5 +149,90 @@
       "debug": false
     }
   },
-  "children": []
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/public/",
+      "outputPath": "/mnt/codebase/zoom-ui-collections/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/pages/Home/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/public/",
+      "outputPath": "/mnt/codebase/zoom-ui-collections/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/pages/UsersList/styles.scss"
+    }
+  ]
 }
