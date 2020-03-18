@@ -9,7 +9,7 @@ class Home extends React.Component {
     return (
       <div className={styles.Home}>
         <img src={calender} />
-        <div> I am in the home right</div>
+        <div> I am in the home right now 123</div>
         <Link to={'/users'}>Press me</Link>
         </div>
     );
