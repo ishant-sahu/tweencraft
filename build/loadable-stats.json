@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.6",
-  "hash": "bfafcafea21b75408e72",
+  "hash": "a0097835ee453e3a9511",
   "publicPath": "",
   "outputPath": "/mnt/codebase/zoom-ui-collections/build",
   "assetsByChunkName": {
@@ -19,7 +19,7 @@
   "assets": [
     {
       "name": "Home.bundle.js",
-      "size": 8577,
+      "size": 8581,
       "chunks": [
         "Home"
       ],
@@ -67,7 +67,7 @@
     },
     {
       "name": "bundle.js",
-      "size": 61765,
+      "size": 62226,
       "chunks": [
         "main"
       ],

@@ -8,7 +8,10 @@ import { configureStore } from './helpers/createStore';
 const app = express();
 
 app.use(express.static('public'));
-webpackDevMiddleWare(app);
+
+if(__DEV__){
+  webpackDevMiddleWare(app);
+}
 
 app.get('*', (req, res) => {
   const { store } = configureStore({}, req.url);

@@ -1,5 +1,6 @@
 const LoadablePlugin = require('@loadable/webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const environment = require('./tools/environment');
 const isDev = environment.getEnvironment();
 const path = require('path');
@@ -35,7 +36,7 @@ const getStyleLoaders = (sass = false) => {
 };
 
 const getPlugins = () => {
-  const plugins = [new LoadablePlugin()];
+  const plugins = [new LoadablePlugin(), new CleanWebpackPlugin()];
   if(isDev){
     plugins.push(
       new MiniCssExtractPlugin({
