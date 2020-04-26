@@ -1,0 +1,797 @@
+@-webkit-keyframes styles__sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0); }
+  40% {
+    -webkit-transform: scale(1); } }
+
+@keyframes styles__sk-bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0); }
+  40% {
+    transform: scale(1); } }
+
+.styles__spinnerWrapper {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #2f2c3d; }
+  .styles__spinnerWrapper .styles__spinner {
+    position: absolute;
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    width: 3.75rem;
+    height: 1.25rem;
+    margin: -0.625rem 0 0 -1.875rem;
+    /* is width and height divided by two */
+    text-align: center; }
+    .styles__spinnerWrapper .styles__spinner div {
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 100%;
+      background-color: #fff;
+      -webkit-animation: styles__sk-bouncedelay 1.4s infinite ease-in-out both;
+      animation: styles__sk-bouncedelay 1.4s infinite ease-in-out both; }
+    .styles__spinnerWrapper .styles__spinner .styles__bounce1 {
+      -webkit-animation-delay: -0.32s;
+      animation-delay: -0.32s; }
+    .styles__spinnerWrapper .styles__spinner .styles__bounce2 {
+      -webkit-animation-delay: -0.16s;
+      animation-delay: -0.16s; }
+
+/*****************************************
+Colors:
+
+- Text, navbar links - white #f1f1f8
+- Buttons, bullets, icons - turquoise #00c9db
+- Navbar - navy #4633af
+- Backgrounds - dark denim #262431
+- Backgrounds - denim #2f2c3d
+******************************************/
+
+
+/******************************/
+/*     01. General Styles     */
+/******************************/
+body,
+html {
+    width: 100%;
+	height: 100%;
+}
+
+body, p {
+	color: #f1f1f8; 
+	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+}
+
+.p-large {
+	color: #f1f1f8;
+	font: 400 1rem/1.5rem "Open Sans", sans-serif;
+}
+
+.p-small {
+	color: #f1f1f8;
+	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+}
+
+.p-heading {
+	margin-bottom: 3.75rem;
+	text-align: center;
+}
+
+.li-space-lg li {
+	margin-bottom: 0.375rem;
+}
+
+.indent {
+	padding-left: 1.25rem;
+}
+
+h1 {
+	color: #f1f1f8;
+	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
+}
+
+h2 {
+	color: #f1f1f8;
+	font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
+}
+
+h3 {
+	color: #f1f1f8;
+	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+}
+
+h4 {
+	color: #f1f1f8;
+	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+}
+
+h5 {
+	color: #f1f1f8;
+	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
+}
+
+h6 {
+	color: #f1f1f8;
+	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+}
+
+a {
+	color: #f1f1f8;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #f1f1f8;
+	text-decoration: underline;
+}
+
+a.turquoise {
+	color: #00c9db;
+}
+
+a.white {
+	color: #fff;
+}
+
+.testimonial-text {
+	font: italic 400 1rem/1.5rem "Open Sans", sans-serif;
+}
+
+.testimonial-author {
+	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+}
+
+.btn-solid-reg {
+	display: inline-block;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	border: 0.125rem solid #00c9db;
+	border-radius: 2rem;
+	background-color: #00c9db;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-reg:hover {
+	background-color: transparent;
+	color: #00c9db;
+	text-decoration: none;
+}
+
+.btn-solid-lg {
+	display: inline-block;
+	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	border: 0.125rem solid #00c9db;
+	border-radius: 2rem;
+	background-color: #00c9db;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+	background-color: transparent;
+	color: #00c9db;
+	text-decoration: none;
+}
+
+.btn-solid-lg .fab {
+	margin-right: 0.5rem;
+	font-size: 1.25rem;
+	line-height: 0;
+	vertical-align: top;
+}
+
+.btn-solid-lg .fab.fa-google-play {
+	font-size: 1rem;
+}
+
+.btn-outline-reg {
+	display: inline-block;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	border: 0.125rem solid #00c9db;
+	border-radius: 2rem;
+	background-color: transparent;
+	color: #00c9db;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-outline-reg:hover {
+	background-color: #00c9db;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-outline-lg {
+	display: inline-block;
+	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	border: 0.125rem solid #00c9db;
+	border-radius: 2rem;
+	background-color: transparent;
+	color: #00c9db;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-outline-lg:hover {
+	background-color: #00c9db;
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-outline-sm {
+	display: inline-block;
+	padding: 1rem 1.625rem 0.875rem 1.625rem;
+	border: 0.125rem solid #00c9db;
+	border-radius: 2rem;
+	background-color: transparent;
+	color: #00c9db;
+	font: 700 0.625rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-outline-sm:hover {
+	background-color: #00c9db;
+	color: #fff;
+	text-decoration: none;
+}
+
+.form-group {
+	position: relative;
+	margin-bottom: 1.25rem;
+}
+
+.form-group.has-error.has-danger {
+	margin-bottom: 0.625rem;
+}
+
+.form-group.has-error.has-danger .help-block.with-errors ul {
+	margin-top: 0.375rem;
+}
+
+.label-control {
+	position: absolute;
+	top: 0.87rem;
+	left: 1.375rem;
+	color: #f1f1f8;
+	opacity: 1;
+	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	cursor: text;
+	transition: all 0.2s ease;
+}
+
+/* IE10+ hack to solve lower label text position compared to the rest of the browsers */
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+	.label-control {
+		top: 0.9375rem;
+	}
+}
+
+.form-control-input:focus + .label-control,
+.form-control-input.notEmpty + .label-control,
+.form-control-textarea:focus + .label-control,
+.form-control-textarea.notEmpty + .label-control {
+	top: 0.125rem;
+	opacity: 1;
+	font-size: 0.75rem;
+	font-weight: 700;
+}
+
+.form-control-input,
+.form-control-select {
+	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
+	width: 100%;
+	padding-top: 1.0625rem;
+	padding-bottom: 0.0625rem;
+	padding-left: 1.3125rem;
+	border: 1px solid #9791ae;
+	border-radius: 0.25rem;
+	background-color: #413d52;
+	color: #f1f1f8;
+	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
+	transition: all 0.2s;
+	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+}
+
+.form-control-select {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	height: 3rem;
+}
+
+/* IE10+ hack to solve lower label text position compared to the rest of the browsers */
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+	.form-control-input {
+		padding-top: 1.25rem;
+		padding-bottom: 0.75rem;
+		line-height: 1.75rem;
+	}
+
+	.form-control-select {
+		padding-top: 0.875rem;
+		padding-bottom: 0.75rem;
+		height: 3.125rem;
+		line-height: 2.125rem;
+	}
+}
+
+select {
+    /* you should keep these first rules in place to maintain cross-browser behavior */
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAJCAYAAAACTR1pAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MkZFMUJGQjRGNUFGMTFFOEE2MDlFODZGRjQ3MDM3MUQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MkZFMUJGQjNGNUFGMTFFOEE2MDlFODZGRjQ3MDM3MUQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDgwNTRBOTVDQkQxMTFFOEExRkVEMUMwQTY2MDlFNTYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NDgwNTRBOTZDQkQxMTFFOEExRkVEMUMwQTY2MDlFNTYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7XHV5PAAAAmklEQVR42mIsKytLZ2BgmALEn4GYkQE/+A/EvEAczgIkdgHxZSA2ZCAOnAPiC0xA4j4QlwDxByI0gdSUAvE9JqjAPiDuIkJjF1QtAxOSYDcQb8CjaQNUDQO6xj9AXAZyBhZN96Byf7BpBIHbQFwFxN+QxL5BxW4jK2TCYvoqIJ6GxJ8OFUMBLDjiqgWINYH4IxA3QsVQAECAAQA3+yGGc5jKHwAAAABJRU5ErkJggg==);
+    background-position: 96% 50%;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none; /* removes the ugly default down arrow on select form field in IE11 */
+}
+
+.form-control-textarea {
+	display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+	width: 100%;
+	height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
+	padding-top: 1.25rem;
+	padding-left: 1.3125rem;
+	border: 1px solid #9791ae;
+	border-radius: 0.25rem;
+	background-color: #413d52;
+	color: #f1f1f8;
+	font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
+	transition: all 0.2s;
+}
+
+.form-control-input:focus,
+.form-control-select:focus,
+.form-control-textarea:focus {
+	border: 1px solid #f1f1f8;
+	outline: none; /* Removes blue border on focus */
+}
+
+.form-control-input:hover,
+.form-control-select:hover,
+.form-control-textarea:hover {
+	border: 1px solid #f1f1f8;
+}
+
+.checkbox {
+	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+}
+
+input[type='checkbox'] {
+	vertical-align: -15%;
+	margin-right: 0.375rem;
+}
+
+/* IE10+ hack to raise checkbox field position compared to the rest of the browsers */
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+	input[type='checkbox'] {
+		vertical-align: -9%;
+	}
+}
+
+.form-control-submit-button {
+	display: inline-block;
+	width: 100%;
+	height: 3.125rem;
+	border: 1px solid #00c9db;
+	border-radius: 1.5rem;
+	background-color: #00c9db;
+	color: #fff;
+	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.form-control-submit-button:hover {
+	background-color: transparent;
+	color: #00c9db;
+}
+
+/* Form Success And Error Message Formatting */
+#cmsgSubmit.h3.text-center.tada.animated,
+#pmsgSubmit.h3.text-center.tada.animated,
+#cmsgSubmit.h3.text-center,
+#pmsgSubmit.h3.text-center {
+	display: block;
+	margin-bottom: 0;
+	color: #f1f1f8;
+	font: 400 1.125rem/1rem "Open Sans", sans-serif;
+}
+
+.help-block.with-errors .list-unstyled {
+	color: #f1f1f8;
+	font-size: 0.75rem;
+	line-height: 1.125rem;
+	text-align: left;
+}
+
+.help-block.with-errors ul {
+	margin-bottom: 0;
+}
+/* end of form success and error message formatting */
+
+/* Form Success And Error Message Animation - Animate.css */
+@-webkit-keyframes tada {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	10%, 20% {
+		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		-ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+	}
+	30%, 50%, 70%, 90% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+	40%, 60%, 80% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes tada {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	10%, 20% {
+		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		-ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+	}
+	30%, 50%, 70%, 90% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+	40%, 60%, 80% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		-ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+	to {
+		-webkit-transform: scale3d(1, 1, 1);
+		-ms-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.tada {
+	-webkit-animation-name: tada;
+	animation-name: tada;
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+/* end of form success and error message animation - Animate.css */
+
+/* Fade-move Animation For Lightbox - Magnific Popup */
+/* at start */
+.my-mfp-slide-bottom .zoom-anim-dialog {
+	opacity: 0;
+	transition: all 0.2s ease-out;
+	-webkit-transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+	-ms-transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+	transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: translateY(0) perspective(37.5rem) rotateX(0); 
+	-ms-transform: translateY(0) perspective(37.5rem) rotateX(0); 
+	transform: translateY(0) perspective(37.5rem) rotateX(0); 
+}
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
+	-ms-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
+	transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
+}
+
+/* dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+	opacity: 0;
+	transition: opacity 0.2s ease-out;
+}
+
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+/* end of fade-move animation for lightbox - magnific popup */
+
+/* Fade Animation For Image Slider - Magnific Popup */
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	-webkit-animation: fadeIn 0.6s;
+	animation: fadeIn 0.6s;
+}
+
+@-webkit-keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.fadeOut {
+	-webkit-animation: fadeOut 0.8s;
+	animation: fadeOut 0.8s;
+}
+/* end of fade animation for image slider - magnific popup */
+
+
+/*************************/
+/*     17. Copyright     */
+/*************************/
+.copyright {
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	background-color: #262431;
+	text-align: center;
+}
+
+.copyright .p-small {
+	color: #f1f1f8;
+	opacity: 0.6;
+}
+
+
+/**********************************/
+/*     18. Back To Top Button     */
+/**********************************/
+a.back-to-top {
+	position: fixed;
+	z-index: 999;
+	right: 0.75rem;
+	bottom: 0.75rem;
+	display: none;
+	width: 2.625rem;
+	height: 2.625rem;
+	border-radius: 1.875rem;
+	background: #00c9db url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTA5MzFCMjlGMTc0MTFFNzg3OEJGNTlEM0MzMDdBOTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTA5MzFCMjhGMTc0MTFFNzg3OEJGNTlEM0MzMDdBOTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEN0VEMEJDRTQ1MTkxMUU2OUY2NkQzMkIxMTNBQTU4MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEN0VEMEJDRjQ1MTkxMUU2OUY2NkQzMkIxMTNBQTU4MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqTjE3kAAADeSURBVHja7JTBCoJAEIY1DCk6dguhoIOHLh18At8fOvgCdY0CM4rMmP6lf2EDV9ZE6ODAB7oz880qq76IeH3EyOspBnFrcQBK8AQzlwbf4VQo6RWEvFfyKai67vhCaQ5OYMxBQRdxASaUr8GSA0Ku2UO9Cgtn+cQNzI11dZ0zV9j6bdIjG+8gqskvOFC4ASfxgQ0PsGp4oog1wo00ivcsLEHcINXErBX21oozFlRg6yDVbNjzJdfJnSFNWkg1iSHPTLGKF0h/kGpSOsQU5x2lplydFqdPevht/qn4LcAAwRlO9CSAHKYAAAAASUVORK5CYII=) no-repeat center 47%;
+	background-size: 1.125rem 1.125rem;
+	text-indent: -9999px;
+}
+
+a:hover.back-to-top {
+	background-color: #36edfd; 
+}
+
+
+/***************************/
+/*     19. Extra Pages     */
+/***************************/
+.ex-header {
+	padding-top: 8rem;
+	padding-bottom: 5rem;
+	background: linear-gradient(to bottom right, #2c1a7e, #5557db);
+	text-align: center;
+}
+
+.ex-basic-1 {
+	padding-top: 2rem;
+	padding-bottom: 0.875rem;
+	background-color: #2f2c3d;
+}
+
+.ex-basic-1 .breadcrumbs {
+	margin-bottom: 1.125rem;
+}
+
+.ex-basic-1 .breadcrumbs .fa {
+	margin-right: 0.5rem;
+	margin-left: 0.625rem;
+}
+
+.ex-basic-2 {
+	padding-top: 4.75rem;
+	padding-bottom: 4rem;
+	background-color: #262431;
+}
+
+.ex-basic-2 h3 {
+	margin-bottom: 1rem;
+}
+
+.ex-basic-2 .text-container {
+	margin-bottom: 3.625rem;
+}
+
+.ex-basic-2 .text-container.last {
+	margin-bottom: 0;
+}
+
+.ex-basic-2 .list-unstyled .fas {
+	color: #00c9db;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.ex-basic-2 .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.ex-basic-2 .btn-outline-reg {
+	margin-top: 1.75rem;
+}
+
+.ex-basic-2 .image-container-large {
+	margin-bottom: 4rem;
+}
+
+.ex-basic-2 .image-container-large img {
+	border-radius: 0.25rem;
+}
+
+.ex-basic-2 .image-container-small img {
+	border-radius: 0.25rem;
+}
+
+.ex-basic-2 .text-container.dark-bg {
+	padding: 1.625rem 1.5rem 0.75rem 2rem;
+	background-color: #f9fafc;
+}
+
+
+/*****************************/
+/*     20. Media Queries     */
+/*****************************/	
+/* Min-width width 768px */
+@media (min-width: 768px) {
+	
+	/* General Styles */
+	.p-heading {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	h1 {
+		font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
+	}
+	/* end of general styles */
+
+	/* Extra Pages */
+	.ex-header {
+		padding-top: 11rem;
+		padding-bottom: 9rem;
+	}
+
+	.ex-basic-2 .text-container.dark {
+		padding: 2.5rem 3rem 2rem 3rem;
+	}
+
+	.ex-basic-2 .text-container.column {
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	/* end of extra pages */
+}
+/* end of min-width width 768px */
+
+
+/* Min-width width 992px */
+@media (min-width: 992px) {
+
+	/* General Styles */
+	.p-heading {
+		width: 65%;
+	}
+	/* end of general styles */
+
+	
+	/* Extra Pages */
+	.ex-header h1 {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.ex-basic-2 {
+		padding-bottom: 5rem;
+	}
+
+	.ex-basic-2 .text-container.column {
+		margin-bottom: 0;
+	}
+	/* end of extra pages */
+}
+/* end of min-width width 992px */
+
+
+/* Min-width width 1200px */
+@media (min-width: 1200px) {
+	/* General Styles */
+	.p-heading {
+		width: 44%;
+	}
+	/* end of general styles */
+
+	/* Extra Pages */
+	.ex-header h1 {
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.ex-basic-2 .form-container {
+		margin-left: 1.75rem;
+	}
+
+	.ex-basic-2 .image-container-small {
+		margin-left: 1.75rem;
+	}
+	/* end of extra pages */
+}
+/* end of min-width width 1200px */
