@@ -1,4 +1,5 @@
 {
+  "homepage": "http://ishant-sahu.github.io/chimpoon",
   "name": "zoom-ui-collections",
   "version": "1.0.0",
   "description": "Repository for zoom collections",
@@ -8,6 +9,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "predeploy": "npm run prod:build-client",
+    "deploy": "gh-pages -d public",
     "lint": "eslint --cache --format codeframe --ext js,jsx src",
     "start": "cross-env NODE_ENV=development SSR=false webpack-dev-server -d --inline --config webpack.client.js ",
     "test": "jest --watch",
@@ -92,6 +95,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.19.0",
     "file-loader": "^3.0.1",
+    "gh-pages": "^2.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^2.1.0",

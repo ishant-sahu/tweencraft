@@ -20,7 +20,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"UsersList\":\"styles__UsersList\"};\n    if(false) { var cssReload; }\n  \n\n//# sourceURL=webpack:///./src/client/pages/UsersList/styles.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"UsersList\":\"styles__UsersList\"};\n\n//# sourceURL=webpack:///./src/client/pages/UsersList/styles.scss?");
 
 /***/ })
 
