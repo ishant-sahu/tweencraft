@@ -8,12 +8,10 @@ const isDev = environment.getEnvironment();
 isSSR = process.env.SSR === 'true' ? true : false ;
 
 const getEntry = () => {
-  let entry = './src/client.js';
+  let entry = ['./src/client.js'];
   if(isSSR && isDev){
     entry = ['webpack-hot-middleware/client?reload=true', './src/client.js']
   }
-  if (!isDev) entry = ['./src/client.js'];
-
   return entry;
 };
 
@@ -47,15 +45,15 @@ const devServer = () => {
 
 
 const config = {
-
   entry: getEntry(),
   output: {
     path: path.resolve(__dirname, 'public'),
-    publicPath: !isSSR ? '/' : '/public/',
-    filename: 'bundle-client.js'
+    publicPath:'/',
+    filename: isDev ? '[name].js' : '[name].[chunkhash:8].js',
+    chunkFilename: isDev ? '[id].js' : '[id].[chunkhash:8].js',
   },
   plugins: getPlugins(),
-  devServer : !isSSR ? devServer() : {}
+  devServer : !isSSR && isDev ? devServer() : {}
 };
 
 module.exports = merge(baseConfig,config);

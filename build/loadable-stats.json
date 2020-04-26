@@ -1,10 +1,10 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.41.6",
-  "hash": "a0097835ee453e3a9511",
+  "version": "4.42.0",
+  "hash": "dd3b1fbead82dda9b7b4",
   "publicPath": "",
-  "outputPath": "/mnt/codebase/zoom-ui-collections/build",
+  "outputPath": "/mnt/codebase/chimpoon/build",
   "assetsByChunkName": {
     "Home": [
       "Home.css",
@@ -14,12 +14,15 @@
       "UsersList.css",
       "UsersList.bundle.js"
     ],
-    "main": "bundle.js"
+    "main": [
+      "main.css",
+      "bundle.js"
+    ]
   },
   "assets": [
     {
       "name": "Home.bundle.js",
-      "size": 8581,
+      "size": 28963,
       "chunks": [
         "Home"
       ],
@@ -31,7 +34,7 @@
     },
     {
       "name": "Home.css",
-      "size": 74,
+      "size": 6513,
       "chunks": [
         "Home"
       ],
@@ -43,7 +46,7 @@
     },
     {
       "name": "UsersList.bundle.js",
-      "size": 7612,
+      "size": 7565,
       "chunks": [
         "UsersList"
       ],
@@ -67,13 +70,73 @@
     },
     {
       "name": "bundle.js",
-      "size": 62226,
+      "size": 68135,
       "chunks": [
         "main"
       ],
       "chunkNames": [
         "main"
       ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "contact-background.ee8f3089.jpg",
+      "size": 40590,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "download-background.d3fc94a6.jpg",
+      "size": 83035,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "header-background.d3fc94a6.jpg",
+      "size": 83035,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "header-iphone.8dce94ff.png",
+      "size": 40502,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "logo.36fc5f01.svg",
+      "size": 19688,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.css",
+      "size": 37133,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "video-background.d3fc94a6.jpg",
+      "size": 83035,
+      "chunks": [],
+      "chunkNames": [],
       "info": {},
       "emitted": false
     }
@@ -85,6 +148,7 @@
         "main"
       ],
       "assets": [
+        "main.css",
         "bundle.js"
       ],
       "children": {},
@@ -97,6 +161,7 @@
         "main"
       ],
       "assets": [
+        "main.css",
         "bundle.js"
       ],
       "children": {},
@@ -137,7 +202,175 @@
       "errors": [],
       "warnings": [],
       "publicPath": "",
-      "outputPath": "/mnt/codebase/zoom-ui-collections/build",
+      "outputPath": "/mnt/codebase/chimpoon/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!src/client/pages/app.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/chimpoon/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Headers/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/chimpoon/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Loader/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/chimpoon/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/NavBar/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/chimpoon/build",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -179,7 +412,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "",
-      "outputPath": "/mnt/codebase/zoom-ui-collections/build",
+      "outputPath": "/mnt/codebase/chimpoon/build",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,

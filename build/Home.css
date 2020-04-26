@@ -1,5 +1,178 @@
+.styles__navbarCustom {
+  background-color: #4633af;
+  box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+  font: 700 0.75rem/2rem "Montserrat", sans-serif;
+  transition: all 0.2s; }
+  .styles__navbarCustom .styles__navbarBrand.styles__logoImage img {
+    width: 113px;
+    height: 34px;
+    margin-bottom: 1px;
+    -webkit-backface-visibility: hidden; }
+  .styles__navbarCustom .styles__navbarBrand.styles__logoText {
+    font: 700 2.375rem/1.5rem "Montserrat", sans-serif;
+    color: #fff;
+    letter-spacing: -0.5px;
+    text-decoration: none; }
+  .styles__navbarCustom .styles__navbarNav {
+    margin-top: 0.75rem; }
+  .styles__navbarCustom .styles__navItem .styles__navLink {
+    padding: 0 0.75rem 0 0.75rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease; }
+    .styles__navbarCustom .styles__navItem .styles__navLink:hover, .styles__navbarCustom .styles__navItem .styles__navLink.styles__active {
+      color: #00c9db; }
+  .styles__navbarCustom .styles__dropdown:hover > .styles__dropdownMenu {
+    display: block;
+    min-width: auto;
+    -webkit-animation: styles__fadeDropdown 0.2s;
+            animation: styles__fadeDropdown 0.2s; }
+  .styles__navbarCustom .styles__dropdownToggle:focus {
+    outline: 0; }
+  .styles__navbarCustom .styles__dropdownMenu {
+    margin-top: 0;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #4633af; }
+  .styles__navbarCustom .styles__dropdownItem {
+    color: #fff;
+    text-decoration: none; }
+    .styles__navbarCustom .styles__dropdownItem:hover {
+      background-color: #4633af; }
+    .styles__navbarCustom .styles__dropdownItem .styles__itemText {
+      font: 700 0.75rem/1.5rem "Montserrat", sans-serif; }
+    .styles__navbarCustom .styles__dropdownItem:hover .styles__itemText {
+      color: #00c9db; }
+  .styles__navbarCustom .styles__dropdownItemsDivideHr {
+    width: 100%;
+    height: 1px;
+    margin: 0.25rem auto 0.25rem auto;
+    border: none;
+    background-color: #b5bcc4;
+    opacity: 0.2; }
+  .styles__navbarCustom .styles__socialIcons {
+    display: none; }
+  .styles__navbarCustom .styles__navbarToggler {
+    border: none;
+    color: #fff;
+    font-size: 2rem; }
+  .styles__navbarCustom button[aria-expanded='false'] .styles__navbarTogglerAwesome.styles__fas.styles__fa-times {
+    display: none; }
+  .styles__navbarCustom button[aria-expanded='false'] .styles__navbarTogglerAwesome.styles__fas.styles__fa-bars {
+    display: inline-block; }
+  .styles__navbarCustom button[aria-expanded='true'] .styles__navbarTogglerAwesome.styles__fas.styles__fa-bars {
+    display: none; }
+  .styles__navbarCustom button[aria-expanded='true'] .styles__navbarTogglerAwesome.styles__fas.styles__fa-times {
+    display: inline-block;
+    margin-right: 0.125rem; }
+
+@-webkit-keyframes styles__fadeDropdown {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes styles__fadeDropdown {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@media (min-width: 768px) {
+  .styles__navbarCustom {
+    padding: 2.125rem 1.5rem 2.125rem 2rem;
+    box-shadow: none; }
+    .styles__navbarCustom .styles__navbarBrand.styles__logoText {
+      color: #fff; }
+    .styles__navbarCustom .styles__navbarNav {
+      margin-top: 0; }
+    .styles__navbarCustom .styles__navItem .styles__navLink {
+      padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+      color: #fff; }
+      .styles__navbarCustom .styles__navItem .styles__navLink:hover, .styles__navbarCustom .styles__navItem .styles__navLink.styles__active {
+        color: #00c9db; }
+    .styles__navbarCustom.styles__topNavCollapse {
+      padding: 0.5rem 1.5rem 0.5rem 2rem;
+      box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+      background-color: #4633af; }
+      .styles__navbarCustom.styles__topNavCollapse .styles__navbarBrand.styles__logoText {
+        color: #fff; }
+      .styles__navbarCustom.styles__topNavCollapse .styles__navItem .styles__navLink {
+        color: #fff; }
+        .styles__navbarCustom.styles__topNavCollapse .styles__navItem .styles__navLink:hover, .styles__navbarCustom.styles__topNavCollapse .styles__navItem .styles__navLink.styles__active {
+          color: #00c9db; }
+    .styles__navbarCustom .styles__dropdownMenu {
+      box-shadow: 0 0.25rem 0.375rem 0 rgba(0, 0, 0, 0.03); }
+    .styles__navbarCustom .styles__dropdownItem {
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem; }
+    .styles__navbarCustom .styles__dropdownItemsDivideHr {
+      width: 84%; } }
+
+@media (min-width: 992px) {
+  .styles__navbarCustom .styles__socialIcons {
+    display: block;
+    margin-left: 0.5rem; }
+  .styles__navbarCustom .styles__faStack {
+    margin-bottom: 0.1875rem;
+    margin-left: 0.375rem;
+    font-size: 0.75rem; }
+  .styles__navbarCustom .styles__faStack2x {
+    color: #00c9db;
+    transition: all 0.2s ease; }
+  .styles__navbarCustom .styles__faStack1x {
+    color: #fff;
+    transition: all 0.2s ease; }
+  .styles__navbarCustom .styles__faStack:hover .styles__faStack2x {
+    color: #fff; }
+  .styles__navbarCustom .styles__faStack:hover .styles__faStack1x {
+    color: #00c9db; } }
+
+@media (min-width: 1200px) {
+  .styles__navbarCustom {
+    padding: 2.125rem 5rem 2.125rem 5rem; }
+    .styles__navbarCustom.styles__topNavCollapse {
+      padding: 0.5rem 5rem 0.5rem 5rem; } }
+
+.styles__header {
+  background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url(header-background.d3fc94a6.jpg) center center no-repeat;
+  background-size: cover; }
+  .styles__header .styles__headerContent {
+    padding-top: 8.5rem;
+    padding-bottom: 7rem;
+    text-align: center; }
+  .styles__header .styles__textContainer {
+    margin-bottom: 3rem; }
+  .styles__header .styles__h1 {
+    margin-bottom: 1rem; }
+  .styles__header .styles__jsRotating {
+    color: #40e0ee; }
+  .styles__header .styles__pLarge {
+    margin-bottom: 2rem; }
+  .styles__header .styles__btnSolidLg {
+    margin-right: 0.5rem;
+    margin-bottom: 1.25rem; }
+
+@media (min-width: 768px) {
+  .styles__header .styles__headerContent {
+    padding-top: 11rem; } }
+
+@media (min-width: 992px) {
+  .styles__header .styles__headerContent {
+    padding-top: 13rem;
+    padding-bottom: 10rem;
+    text-align: left; }
+  .styles__header .styles__textContainer {
+    margin-top: 6.5rem; } }
+
+@media (min-width: 1200px) {
+  .styles__header .styles__textContainer {
+    margin-top: 7.5rem;
+    margin-left: 2.5rem; }
+  .styles__header .styles__imageContainer {
+    margin-left: 3rem; } }
+
 .styles__Home {
   margin: 0;
-  padding: 0;
-  background-color: yellow; }
+  padding: 0; }
 

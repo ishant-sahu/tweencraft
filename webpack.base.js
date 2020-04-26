@@ -1,10 +1,10 @@
 const LoadablePlugin = require('@loadable/webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const path = require('path');
 const environment = require('./tools/environment');
 const isDev = environment.getEnvironment();
-const path = require('path');
-
+isSSR = process.env.SSR === 'true' ? true : false ;
 const USE_CSS_MODULES = true;
 
 const getStyleLoaders = (sass = false) => {
@@ -12,7 +12,7 @@ const getStyleLoaders = (sass = false) => {
     {
       loader: MiniCssExtractPlugin.loader,
       options: {
-        hmr: isDev,
+        hmr: isDev && isSSR,
         // If hmr does not work, this is a forceful method
         reloadAll: true
       }
@@ -21,30 +21,31 @@ const getStyleLoaders = (sass = false) => {
       loader: 'css-loader',
       options: {
         importLoaders: sass ? 2 : 1,
-        modules: USE_CSS_MODULES && {
+        modules: USE_CSS_MODULES && sass && {
           localIdentName: isDev ? '[name]__[local]' : '[hash:base64:5]',
           context: path.resolve(process.cwd(), 'src')
         },
         sourceMap: true
       }
     },
-    { loader: 'postcss-loader', options: { sourceMap: true } }
+    
   ];
-  if (sass) loaders.push({ loader: 'sass-loader', options: { sourceMap: true } });
+  if (sass){
+    loaders.push({ loader: 'postcss-loader', options: { sourceMap: true } });
+    loaders.push({ loader: 'sass-loader', options: { sourceMap: true } });
+  } 
 
   return loaders;
 };
 
 const getPlugins = () => {
   const plugins = [new LoadablePlugin(), new CleanWebpackPlugin()];
-  if(isDev){
     plugins.push(
       new MiniCssExtractPlugin({
         filename: isDev ? '[name].css' : '[name].[contenthash:8].css',
         chunkFilename: isDev ? '[id].css' : '[id].[contenthash:8].css'
       }) 
     );
-  }
   return plugins;
 }
 

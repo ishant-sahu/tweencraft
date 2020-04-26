@@ -9,13 +9,11 @@ const isDev = environment.getEnvironment();
 
 const getPlugins = () => {
   const plugins = [];
-  if(isDev){
       plugins.push(
         new webpack.DefinePlugin({
           __DEV__: isDev
         })
       );
-    }
   return plugins;
 }
 
