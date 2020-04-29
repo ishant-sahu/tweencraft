@@ -1,24 +1,24 @@
-import { Home, UsersList } from './client/pages';
-import { usersAction } from './client/actions';
+import { Home } from './client/pages';
+import { homeAction } from './client/actions';
 import App from './client/pages/App';
+const base = process.env.BASE || '';
 
 export default [
   {
     component: App,
     routes: [
       {
-        path: '/',
+        path: `/${base}`,
         component: Home,
-        exact: true
-      },
-      {
-        path: '/users',
-        component: UsersList,
+        exact: true,
         loadData: dispatch => {
-          return dispatch(usersAction.fetchUsers());
-        },
-        exact: true
+          return dispatch(homeAction.fetchStories());
+        }
       }
     ]
   }
 ];
+
+
+  
+

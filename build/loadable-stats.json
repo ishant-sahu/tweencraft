@@ -2,17 +2,13 @@
   "errors": [],
   "warnings": [],
   "version": "4.42.0",
-  "hash": "c5141c7ac237d97108ec",
+  "hash": "ec4936928f343bcee5ba",
   "publicPath": "",
   "outputPath": "/mnt/codebase/chimpoon/build",
   "assetsByChunkName": {
     "Home": [
       "Home.css",
       "Home.bundle.js"
-    ],
-    "UsersList": [
-      "UsersList.css",
-      "UsersList.bundle.js"
     ],
     "main": [
       "main.css",
@@ -22,7 +18,7 @@
   "assets": [
     {
       "name": "Home.bundle.js",
-      "size": 189625,
+      "size": 207338,
       "chunks": [
         "Home"
       ],
@@ -34,7 +30,7 @@
     },
     {
       "name": "Home.css",
-      "size": 26450,
+      "size": 33556,
       "chunks": [
         "Home"
       ],
@@ -45,32 +41,40 @@
       "emitted": false
     },
     {
-      "name": "UsersList.bundle.js",
-      "size": 7527,
-      "chunks": [
-        "UsersList"
-      ],
-      "chunkNames": [
-        "UsersList"
-      ],
+      "name": "appu.6eabf861.png",
+      "size": 210602,
+      "chunks": [],
+      "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "UsersList.css",
-      "size": 50,
-      "chunks": [
-        "UsersList"
-      ],
-      "chunkNames": [
-        "UsersList"
-      ],
+      "name": "aunty.86c4e09e.png",
+      "size": 116871,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "bhari_babu.30751e24.png",
+      "size": 143776,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "boss.01da8517.png",
+      "size": 82448,
+      "chunks": [],
+      "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
       "name": "bundle.js",
-      "size": 68473,
+      "size": 71094,
       "chunks": [
         "main"
       ],
@@ -89,16 +93,16 @@
       "emitted": false
     },
     {
-      "name": "details-1-iphone.7ea92ec4.png",
-      "size": 39345,
+      "name": "details-1-iphone.1aeb2f37.png",
+      "size": 292785,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "details-2-iphone.bda98133.png",
-      "size": 63745,
+      "name": "details-2-iphone.2438697c.png",
+      "size": 160081,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -121,24 +125,32 @@
       "emitted": false
     },
     {
-      "name": "download-background.d3fc94a6.jpg",
-      "size": 83035,
+      "name": "download-background.38ea9c8e.jpg",
+      "size": 133087,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "download.479e6797.png",
-      "size": 95052,
+      "name": "download.69895db4.png",
+      "size": 301715,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "features-iphone-1.6e7c0565.png",
-      "size": 47891,
+      "name": "fb_tweencraft_logo.108ba918.png",
+      "size": 25529,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "features-iphone-1.ef460a59.png",
+      "size": 133888,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -161,24 +173,16 @@
       "emitted": false
     },
     {
-      "name": "header-background.d3fc94a6.jpg",
-      "size": 83035,
+      "name": "header-background.6133c986.jpg",
+      "size": 133083,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "header-iphone.8dce94ff.png",
-      "size": 40502,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "logo.36fc5f01.svg",
-      "size": 19688,
+      "name": "header-iphone.04497e3d.png",
+      "size": 114493,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -186,7 +190,7 @@
     },
     {
       "name": "main.css",
-      "size": 19786,
+      "size": 19780,
       "chunks": [
         "main"
       ],
@@ -197,80 +201,80 @@
       "emitted": false
     },
     {
-      "name": "screenshot-1.cd3d4eb0.png",
-      "size": 43164,
+      "name": "screenshot-1.4404fb24.png",
+      "size": 32108,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-10.1cb20bd5.png",
-      "size": 77950,
+      "name": "screenshot-10.01c9a722.png",
+      "size": 81362,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-2.dc7bd9f7.png",
-      "size": 83741,
+      "name": "screenshot-2.179dc0b1.png",
+      "size": 105312,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-3.ea7d6fca.png",
-      "size": 56129,
+      "name": "screenshot-3.31d444ef.png",
+      "size": 121842,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-4.80339d32.png",
-      "size": 36565,
+      "name": "screenshot-4.b79e6a5a.png",
+      "size": 287043,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-5.0053490c.png",
-      "size": 75474,
+      "name": "screenshot-5.019ca225.png",
+      "size": 127669,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-6.ab6cc92d.png",
-      "size": 58699,
+      "name": "screenshot-6.868b13e1.png",
+      "size": 271803,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-7.756657a3.png",
-      "size": 50733,
+      "name": "screenshot-7.b8f6a85e.png",
+      "size": 270747,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-8.2815356b.png",
-      "size": 43788,
+      "name": "screenshot-8.46465f4e.png",
+      "size": 122383,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "screenshot-9.8ea49855.png",
-      "size": 60381,
+      "name": "screenshot-9.d1af0fbf.png",
+      "size": 102306,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -325,16 +329,24 @@
       "emitted": false
     },
     {
-      "name": "video-background.d3fc94a6.jpg",
-      "size": 83035,
+      "name": "tweencraft.3cd36e10.png",
+      "size": 210037,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "video-frame.d77d44df.jpg",
-      "size": 82470,
+      "name": "video-background.05731fb9.jpg",
+      "size": 133081,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "video-frame.4181eb00.jpg",
+      "size": 78919,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -374,17 +386,6 @@
       "assets": [
         "Home.css",
         "Home.bundle.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "UsersList": {
-      "chunks": [
-        "UsersList"
-      ],
-      "assets": [
-        "UsersList.css",
-        "UsersList.bundle.js"
       ],
       "children": {},
       "childAssets": {}
@@ -439,6 +440,48 @@
       },
       "children": [],
       "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!src/client/pages/app.css"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/chimpoon/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Characters/styles.scss"
     },
     {
       "errors": [],
@@ -984,7 +1027,7 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/pages/Home/styles.scss"
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/VideoList/styles.scss"
     },
     {
       "errors": [],
@@ -1026,7 +1069,7 @@
         }
       },
       "children": [],
-      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/pages/UsersList/styles.scss"
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/pages/Home/styles.scss"
     }
   ]
 }

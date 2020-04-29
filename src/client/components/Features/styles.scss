@@ -7,6 +7,7 @@
       margin-bottom: 1.125rem;
       text-align: center;
     }
+    
   
     .pHeading {
       margin-bottom: 3.125rem;
@@ -45,7 +46,9 @@
   
     .tabContent {
       width: 100%;
-  
+      .image{
+        margin-top: 65%;
+      }
     }
   
     .card {
@@ -154,6 +157,17 @@
     }
   }
 
+  @media (max-width: 991px) {
+   .tabs{
+    .tabContent {
+      width: 100%;
+      .image{
+        margin-top: 0;
+      }
+    }
+  }
+  }
+
   @media (min-width: 768px) {
     .tabs {
       .card .cardIcon {
@@ -163,6 +177,7 @@
         .fas, .far {
           font-size: 2.25rem;
           line-height: 4.5rem;
+          height: 4.5rem;
         }
       }
   

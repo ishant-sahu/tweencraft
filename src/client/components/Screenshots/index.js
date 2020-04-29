@@ -1,16 +1,16 @@
 import React from 'react';
 import styles from './styles.scss';
 import {
-    screenShot1,
-    screenShot2,
-    screenShot3,
-    screenShot4,
-    screenShot5,
-    screenShot6,
-    screenShot7,
-    screenShot8,
-    screenShot9,
-    screenShot10,
+  screenShot1,
+  screenShot2,
+  screenShot3,
+  screenShot4,
+  screenShot5,
+  screenShot6,
+  screenShot7,
+  screenShot8,
+  screenShot9,
+  screenShot10,
 } from '../../images/index';
 
 class ScreenShots extends React.Component {
@@ -18,60 +18,63 @@ class ScreenShots extends React.Component {
     if ($) {
       let imageSlider = new Swiper('.image-slider', {
         autoplay: {
-            delay: 2000,
-            disableOnInteraction: false
-		},
+          delay: 2000,
+          disableOnInteraction: false,
+        },
         loop: false,
         navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
         spaceBetween: 30,
-        slidesPerView: 5,
-		breakpoints: {
-            // when window is <= 380px
-            380: {
-                slidesPerView: 1,
-                spaceBetween: 10
-            },
-            // when window is <= 516px
-            516: {
-                slidesPerView: 2,
-                spaceBetween: 10
-            },
-            // when window is <= 768px
-            768: {
-                slidesPerView: 3,
-                spaceBetween: 20
-            },
-            // when window is <= 992px
-            992: {
-                slidesPerView: 4,
-                spaceBetween: 30
-            },
-            // when window is <= 1200px
-            1200: {
-                slidesPerView: 5,
-                spaceBetween: 30
-            },
-        }
-    });
+        slidesPerView: 3,
+        breakpoints: {
+          // when window is <= 380px
+          380: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window is <= 516px
+          516: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          // when window is <= 768px
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          // when window is <= 992px
+          992: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+          // when window is <= 1200px
+          1200: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+          },
+        },
+      });
 
-    $('.popup-link').magnificPopup({
-		removalDelay: 300,
-		type: 'image',
-		callbacks: {
-			beforeOpen: function() {
-				this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure ' + this.st.el.attr('data-effect'));
-			},
-			beforeClose: function() {
-				$('.mfp-figure').addClass('fadeOut');
-			}
-		},
-		gallery:{
-			enabled:true //enable gallery mode
-		}
-    });
+      $('.popup-link').magnificPopup({
+        removalDelay: 300,
+        type: 'image',
+        callbacks: {
+          beforeOpen: function() {
+            this.st.image.markup = this.st.image.markup.replace(
+              'mfp-figure',
+              'mfp-figure ' + this.st.el.attr('data-effect')
+            );
+          },
+          beforeClose: function() {
+            $('.mfp-figure').addClass('fadeOut');
+          },
+        },
+        gallery: {
+          enabled: true, //enable gallery mode
+        },
+      });
     }
   }
 
@@ -79,10 +82,18 @@ class ScreenShots extends React.Component {
     return (
       <div className={styles.slider2}>
         <div className='container'>
+        <div className='row'>
+            <div className='col-lg-12'>
+              <h2 className={styles.h2}>ScreenShots</h2>
+
+            </div>
+          </div>
           <div className='row'>
             <div className='col-lg-12'>
               <div className={styles.sliderContainer}>
-                <div className={`swiper-container image-slider ${styles.swiperContainer}`}>
+                <div
+                  className={`swiper-container image-slider ${styles.swiperContainer}`}
+                >
                   <div className='swiper-wrapper'>
                     <div className='swiper-slide'>
                       <a
@@ -195,7 +206,6 @@ class ScreenShots extends React.Component {
                         />
                       </a>
                     </div>
-
                     <div className='swiper-slide'>
                       <a
                         href={screenShot9}
@@ -209,7 +219,6 @@ class ScreenShots extends React.Component {
                         />
                       </a>
                     </div>
-
                     <div className='swiper-slide'>
                       <a
                         href={screenShot10}
@@ -225,8 +234,12 @@ class ScreenShots extends React.Component {
                     </div>
                   </div>
 
-                  <div className={`swiper-button-next ${styles.swiperButtonNext}`}></div>
-                  <div className={`swiper-button-prev ${styles.swiperButtonPrev}`}></div>
+                  <div
+                    className={`swiper-button-next ${styles.swiperButtonNext}`}
+                  ></div>
+                  <div
+                    className={`swiper-button-prev ${styles.swiperButtonPrev}`}
+                  ></div>
                 </div>
               </div>
             </div>

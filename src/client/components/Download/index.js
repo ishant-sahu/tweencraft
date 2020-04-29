@@ -12,10 +12,10 @@ class Download extends React.Component {
             <div className="row">
                 <div className="col-lg-6 col-xl-5">
                     <div className={styles.textContainer}>
-                        <h2>Download <span className="blue">Chimpoon</span></h2>
-                        <p className={`p-large ${styles.pLarge}`}>Target the right customers for your business with the help of Chimpoon's patented technology and increase conversion figures in less than 2 weeks</p>
-                        <a className={`btn-solid-lg ${styles.btnSolidLg}`} href="#your-link"><i className="fab fa-apple"></i>APP STORE</a>
-                        <a className={`btn-solid-lg ${styles.btnSolidLg}`} href="#your-link"><i className="fab fa-google-play"></i>PLAY STORE</a>
+                        <h2>Download <span className="blue">Tweencraft</span></h2>
+                        <p className={`p-large ${styles.pLarge}`}>Create beautiful animations and share with the world.</p>
+                        {/* <a className={`btn-solid-lg ${styles.btnSolidLg}`} href="#your-link"><i className="fab fa-apple"></i>APP STORE</a> */}
+                        <a className={`btn-solid-lg ${styles.btnSolidLg}`} href="https://play.google.com/store/apps/details?id=com.kk.chimpoon"><i className="fab fa-google-play" style={{marginRight: '7px'}}></i>PLAY STORE</a>
                     </div> 
                 </div>
                 <div className="col-lg-6 col-xl-7">

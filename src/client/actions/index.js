@@ -1,3 +1,3 @@
-import * as usersAction from './users';
+import * as homeAction from './home';
 
-export { usersAction };
+export { homeAction };

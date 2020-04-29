@@ -4,17 +4,21 @@ import styles from './styles.scss';
 class Footer extends React.Component {
   render() {
     return (
-        <div className={styles.footer}>
-        <div className="container">
-            <div className="row">
-                <div className="col-md-4">
-                    <div className={styles.footerCol}>
-                        <h4>About Chimpoon</h4>
-                        <p>We're passionate about creating the best mobile apps for personal development</p>
-                    </div>
-                </div> 
-                <div className="col-md-4">
-                    <div className={`${styles.footerCol} ${styles.middle}`}>
+      <div className={styles.footer}>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-sm-4'>
+              <div className={styles.footerCol}>
+                <h4>About Tweenkraft</h4>
+                <p>
+                  We're a complete cartoon video maker editor app to create
+                  animated videos which can be shared across the social media
+                  community.
+                </p>
+              </div>
+            </div>
+            <div className='col-sm-4'>
+              {/* <div className={`${styles.footerCol} ${styles.middle}`}>
                         <h4>Important Links</h4>
                         <ul className={`${styles.listUnstyled} li-space-lg`}>
                             <li className="media">
@@ -26,46 +30,57 @@ class Footer extends React.Component {
                                 <div className={styles.mediaBody}>Read our <a className="turquoise" href="terms-conditions.html">Terms & Conditions</a>, <a className="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
                             </li>
                         </ul>
-                    </div>
-                </div> 
-                <div className="col-md-4">
-                    <div className="footer-col last">
-                        <h4>Social Media</h4>
-                        <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-google-plus-g fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-linkedin-in fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </div>
+                    </div> */}
+            </div>
+            <div className='col-sm-4' style={{ textAlign: 'right' }}>
+              <div className='footer-col last'>
+                <h4>Social Media</h4>
+                <span className={`${styles.navItem} ${styles.socialIcons}`}>
+                  <span className={`fa-stack ${styles.faStack}`}>
+                    <a
+                      href='https://www.facebook.com/tweencraftapp'
+                      target='_blank'
+                    >
+                      <i
+                        className={`fas fa-circle fa-stack-2x ${styles.faStack2x}`}
+                      ></i>
+                      <i
+                        className={`fab fa-facebook-f fa-stack-1x ${styles.faStack1x}`}
+                      ></i>
+                    </a>
+                  </span>
+                  <span className={`fa-stack ${styles.faStack}`}>
+                    <a
+                      href='https://www.instagram.com/tweencraftapp/'
+                      target='_blank'
+                    >
+                      <i
+                        className={`fas fa-circle fa-stack-2x ${styles.faStack2x}`}
+                      ></i>
+                      <i
+                        className={`fab fa-instagram fa-stack-1x ${styles.faStack1x}`}
+                      ></i>
+                    </a>
+                  </span>
+                  <span className={`fa-stack ${styles.faStack}`}>
+                    <a
+                      href='https://www.youtube.com/channel/UCQP0C_4_xlA-bvZGxEwxnGg'
+                      target='_blank'
+                    >
+                      <i
+                        className={`fas fa-circle fa-stack-2x ${styles.faStack2x}`}
+                      ></i>
+                      <i
+                        className={`fab fa-youtube fa-stack-1x ${styles.faStack1x}`}
+                      ></i>
+                    </a>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }

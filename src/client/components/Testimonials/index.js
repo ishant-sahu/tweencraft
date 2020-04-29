@@ -42,6 +42,11 @@ class Testimonials extends React.Component {
     return (
       <div className={styles.slider1}>
         <div className='container'>
+        <div className='row'>
+            <div className='col-lg-12'>
+              <h2 className={styles.h2}>{'REVIEWS'}</h2>
+            </div>
+          </div>
           <div className='row'>
             <div className='col-lg-12'>
               <div className={styles.sliderContainer}>
@@ -56,11 +61,10 @@ class Testimonials extends React.Component {
                         />
                         <div className={styles.cardBody}>
                           <p className='testimonial-text'>
-                            I just finished my trial period and was so amazed
-                            with the support and results that I purchased Chimpoon.
+                           Such a Great and Fun app. Excellent performance.Please add more characters and add some effects. 
                           </p>
                           <p className='testimonial-author'>
-                            Jude Thorn - Designer
+                            Ishant Sahu - Developer
                           </p>
                         </div>
                       </div>
@@ -75,11 +79,11 @@ class Testimonials extends React.Component {
                         />
                         <div className={styles.cardBody}>
                           <p className='testimonial-text'>
-                            I just finished my trial period and was so amazed
-                            with the support and results that I purchased Chimpoon.
+                            The game is very easy to use and in the last I want to say that it's animation and changed voice features are amazing.
+                            
                           </p>
                           <p className='testimonial-author'>
-                            Jude Thorn - Designer
+                            ABCD- Designer
                           </p>
                         </div>
                       </div>
@@ -94,11 +98,10 @@ class Testimonials extends React.Component {
                         />
                         <div className={styles.cardBody}>
                           <p className='testimonial-text'>
-                            I just finished my trial period and was so amazed
-                            with the support and results that I purchased Chimpoon.
+                            Best app .Excellent and very easy and all features are there I like but different type of sounds backgrounds charters required.
                           </p>
                           <p className='testimonial-author'>
-                            Jude Thorn - Designer
+                            CDDF - Animator
                           </p>
                         </div>
                       </div>
@@ -113,11 +116,10 @@ class Testimonials extends React.Component {
                         />
                         <div className={styles.cardBody}>
                           <p className='testimonial-text'>
-                            I just finished my trial period and was so amazed
-                            with the support and results that I purchased Chimpoon.
+                            Tweencraft app is very easy to make cartoon stories and it is to much simple.
                           </p>
                           <p className='testimonial-author'>
-                            Jude Thorn - Designer
+                            ABCD  - Founder
                           </p>
                         </div>
                       </div>
@@ -132,8 +134,8 @@ class Testimonials extends React.Component {
                         />
                         <div className={styles.cardBody}>
                           <p className='testimonial-text'>
-                            I just finished my trial period and was so amazed
-                            with the support and results that I purchased Chimpoon.
+                          The game is very easy to use and in the last I want to say that it's animation and changed voice features are amazing.
+
                           </p>
                           <p className='testimonial-author'>
                             Jude Thorn - Designer
@@ -142,24 +144,6 @@ class Testimonials extends React.Component {
                       </div>
                     </div>
 
-                    <div className='swiper-slide'>
-                      <div className={styles.card}>
-                        <img
-                          className={styles.cardImage}
-                          src={testimonial1}
-                          alt='alternative'
-                        />
-                        <div className={styles.cardBody}>
-                          <p className='testimonial-text'>
-                            I just finished my trial period and was so amazed
-                            with the support and results that I purchased Chimpoon.
-                          </p>
-                          <p className='testimonial-author'>
-                            Jude Thorn - Designer
-                          </p>
-                        </div>
-                      </div>
-                    </div>
                   </div>
 
                   <div className={`swiper-button-prev ${styles.swiperButtonPrev}`}></div>

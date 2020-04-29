@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from './styles.scss';
-import { featuresIphone1,featuresIphone2,featuresIphone3 } from '../../images/index';
+import {
+  featuresIphone1,
+  featuresIphone2,
+  featuresIphone3,
+} from '../../images/index';
 
 class Features extends React.Component {
   render() {
@@ -10,15 +14,19 @@ class Features extends React.Component {
           <div className='row'>
             <div className='col-lg-12'>
               <h2 className={styles.h2}>FEATURES</h2>
-              <div className={`p-heading ${styles.pHeading} p-large`}>
+              {/* <div className={`p-heading ${styles.pHeading} p-large`}>
               Chimpoon was designed based on input from personal development
                 coaches and popular trainers so it offers all
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='row'>
-            <ul className={`nav nav-tabs ${styles.navTabs}`} id='lenoTabs' role='tablist'>
-              <li className='nav-item'>
+            <ul
+              className={`nav nav-tabs ${styles.navTabs}`}
+              id='lenoTabs'
+              role='tablist'
+            >
+              {/* <li className='nav-item'>
                 <a
                   className={`nav-link ${styles.navLink} active`}
                   id='nav-tab-1'
@@ -30,8 +38,8 @@ class Features extends React.Component {
                 >
                   <i  className={`fas ${styles.fas} fa-cog`}></i>CONFIGURING
                 </a>
-              </li>
-              <li className='nav-item'>
+              </li> */}
+              {/* <li className='nav-item'>
                 <a
                   className={`nav-link ${styles.navLink}`}
                   id='nav-tab-2'
@@ -56,10 +64,13 @@ class Features extends React.Component {
                 >
                   <i className={`fas ${styles.fas} fa-search`}></i>MONITORING
                 </a>
-              </li>
+              </li> */}
             </ul>
 
-            <div className={`tab-content ${styles.tabContent}`} id='lenoTabsContent'>
+            <div
+              className={`tab-content ${styles.tabContent}`}
+              id='lenoTabsContent'
+            >
               <div
                 className={`tab-pane fade show active ${styles.tab1}`}
                 id='tab-1'
@@ -69,13 +80,18 @@ class Features extends React.Component {
                 <div className='container'>
                   <div className='row'>
                     <div className='col-lg-4'>
-                      <div className={`${styles.card} ${styles.leftPane} ${styles.first}`}>
+                      <div
+                        className={`${styles.card} ${styles.leftPane} ${styles.first}`}
+                      >
                         <div className={`${styles.cardBody}`}>
                           <div className={styles.textWrapper}>
-                            <h4 className={styles.cardTitle}>Goal Setting</h4>
+                            <h4 className={styles.cardTitle}>
+                              Move character with touch
+                            </h4>
                             <p>
-                              Like any self improving process, everything starts
-                              with setting your goals and committing to them
+                              Just a finger touch and move any any body of
+                              character. Make the character sit, stand, roll
+                              eyes etc.
                             </p>
                           </div>
                           <div className={styles.cardIcon}>
@@ -86,10 +102,10 @@ class Features extends React.Component {
                       <div className={`${styles.card} ${styles.leftPane}`}>
                         <div className={`${styles.cardBody}`}>
                           <div className={styles.textWrapper}>
-                            <h4 className={styles.cardTitle}>Visual Editor</h4>
+                            <h4 className={styles.cardTitle}>Change voice</h4>
                             <p>
-                            Chimpoon provides a well designed and ergonomic visual
-                              editor for you to edit your notes and input data
+                              You can change character voice to cartoony with
+                              ease
                             </p>
                           </div>
                           <div className={styles.cardIcon}>
@@ -99,12 +115,12 @@ class Features extends React.Component {
                       </div>
                       <div className={`${styles.card} ${styles.leftPane}`}>
                         <div className={`${styles.cardBody}`}>
-                          <div  className={styles.textWrapper}>
-                            <h4 className={styles.cardTitle}>Refined Options</h4>
+                          <div className={styles.textWrapper}>
+                            <h4 className={styles.cardTitle}>
+                              Camera movement
+                            </h4>
                             <p>
-                              Each option packaged in the app's menus is
-                              provided in order to improve your personal
-                              development status
+                              Make dramatic videos with camera zoom/pan effect.
                             </p>
                           </div>
                           <div className={styles.cardIcon}>
@@ -116,53 +132,55 @@ class Features extends React.Component {
 
                     <div className='col-lg-4'>
                       <img
-                        className='img-fluid'
+                        className={`img-fluid ${styles.image} `}
                         src={featuresIphone1}
                         alt='alternative'
                       />
                     </div>
 
                     <div className='col-lg-4'>
-                      <div className={`${styles.card} ${styles.leftPane} ${styles.first}`}>
-                        <div className={`${styles.cardBody}`}>
-                          <div className={styles.cardIcon}>
-                            <i className={`far fa-calender-check ${styles.far}`}></i>
-                          </div>
-                          <div className={styles.textWrapper}>
-                            <h4 className={styles.cardTitle}>Calendar Input</h4>
-                            <p>
-                              Schedule your appointments, meetings and
-                              periodical evaluations using the provided in-app
-                              calendar option
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className={`${styles.card} ${styles.leftPane}`}>
+                      <div
+                        className={`${styles.card} ${styles.leftPane} ${styles.first}`}
+                      >
                         <div className={`${styles.cardBody}`}>
                           <div className={styles.cardIcon}>
                             <i className={`far fa-bookmark ${styles.far}`}></i>
                           </div>
                           <div className={styles.textWrapper}>
-                            <h4 className={styles.cardTitle}>Easy Reading</h4>
+                            <h4 className={styles.cardTitle}>
+                              Import Images / GIFs / Background Music
+                            </h4>
                             <p>
-                              Reading focus mode for long form articles, ebooks
-                              and other materials which involve large text areas
+                              Import any image and make it background or prop as
+                              per your own choice
                             </p>
                           </div>
                         </div>
                       </div>
-                      <div className={`${styles.card} ${styles.leftPane}`} >
+                      <div className={`${styles.card} ${styles.leftPane} `}>
+                        <div className={`${styles.cardBody}`}>
+                          <div className={styles.cardIcon}>
+                            <i
+                              className={`far fa-calender-check ${styles.far}`}
+                            ></i>
+                          </div>
+                          <div className={styles.textWrapper}>
+                            <h4 className={styles.cardTitle}>Sound effects</h4>
+                            <p>Add twist to your story with sound effects</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className={`${styles.card} ${styles.leftPane}`}>
                         <div className={`${styles.cardBody}`}>
                           <div className={`${styles.cardIcon}`}>
                             <i className={`far fa-cube ${styles.far}`}></i>
                           </div>
                           <div className={styles.textWrapper}>
-                            <h4 className={styles.cardTitle}>Good Foundation</h4>
+                            <h4 className={styles.cardTitle}>Speed</h4>
                             <p>
-                              Get a solid foundation for your self development
-                              efforts. Try Chimpoon mobile app for any mobile
-                              platform
+                              Change animation speed. You can make stickman
+                              fight, car race, fighter plane animation with
+                              speed change
                             </p>
                           </div>
                         </div>
@@ -172,7 +190,7 @@ class Features extends React.Component {
                 </div>
               </div>
 
-              <div
+              {/* <div
                 className={`tab-pane fade ${styles.tab2}`}
                 id='tab-2'
                 role='tabpanel'
@@ -257,9 +275,9 @@ class Features extends React.Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div
+              {/* <div
                  className={`tab-pane fade ${styles.tab3}`}
                 id='tab-3'
                 role='tabpanel'
@@ -344,7 +362,7 @@ class Features extends React.Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

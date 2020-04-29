@@ -7,6 +7,3 @@ export const Home = loadable(() => import('./Home'), {
   fallback:  <Loader />
 });
 
-export const UsersList = loadable(() => import('./UsersList'), {
-  fallback:  <Loader />
-});

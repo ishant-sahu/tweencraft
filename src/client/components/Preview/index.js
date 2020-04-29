@@ -46,8 +46,7 @@ class Preview extends React.Component {
             <div className='col-lg-12'>
               <h2 className={styles.h2}>PREVIEW</h2>
               <div className={`p-heading p-large ${styles.pHeading}`}>
-                Target the right customers for your business with the help of
-                Chimpoon's patented segmentation technology
+                Create your own stories with ease
               </div>
             </div>
           </div>
@@ -57,7 +56,7 @@ class Preview extends React.Component {
                 <div className={styles.videoWrapper}>
                   <a
                     className='popup-youtube'
-                    href='https://www.youtube.com/watch?v=fLCjQJCekTs'
+                    href='https://www.youtube.com/watch?v=uzC3bKg_zxo'
                     data-effect='fadeIn'
                   >
                     <img
