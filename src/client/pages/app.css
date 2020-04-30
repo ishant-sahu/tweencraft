@@ -133,8 +133,9 @@ a.white {
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
-	color: #5D30FF;
+	/* background-color: transparent;
+	color: #5D30FF; */
+	transform: scale(1.1);
 	text-decoration: none;
 }
 
@@ -356,8 +357,9 @@ input[type='checkbox'] {
 }
 
 .form-control-submit-button:hover {
-	background-color: transparent;
-	color: #5D30FF;
+	/* background-color: transparent;
+	color: #5D30FF; */
+	transform: scale(1.04);
 }
 
 /* Form Success And Error Message Formatting */

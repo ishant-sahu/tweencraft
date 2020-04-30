@@ -80,7 +80,7 @@ class ScreenShots extends React.Component {
 
   render() {
     return (
-      <div className={styles.slider2}>
+      <div className={styles.slider2} id='screens'>
         <div className='container'>
         <div className='row'>
             <div className='col-lg-12'>

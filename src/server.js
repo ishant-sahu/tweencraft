@@ -16,6 +16,7 @@ app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded());
 app.use(express.static('public'));
+app.use('/favicon.ico', express.static(__dirname + 'src/client/images/tweenkraft/favicon.png'));
 if(__DEV__){
   webpackDevMiddleWare(app);
 }

@@ -32,7 +32,7 @@ class Characters extends React.Component {
 
   render() {
     return (
-      <div className={styles.characters}>
+      <div className={styles.characters} id="characters">
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>

@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 const baseConfig = require('./webpack.base');
 const merge = require('webpack-merge');
 const environment = require('./tools/environment');
@@ -31,7 +32,7 @@ const getPlugins = () => {
     if (!isSSR) {
       plugins.push(
         new HtmlWebpackPlugin({
-          template: './tools/index.html'
+          template: './tools/index.html',
         })
       );
     }
@@ -42,6 +43,9 @@ const getPlugins = () => {
         ? JSON.stringify(process.env.BASE)
         : null,
     })
+  );
+  plugins.push(
+    new FaviconsWebpackPlugin('./src/client/images/tweenkraft/favicon.png')
   );
   return plugins;
 };

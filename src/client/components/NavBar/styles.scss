@@ -34,6 +34,7 @@
   
 	  &:hover, &.active {
 		color: $blue;
+		background:#FFF;
 	  }
 	}
   
@@ -58,17 +59,20 @@
 	.dropdownItem {
 	  color: #fff;
 	  text-decoration: none;
-  
+	  
 	  &:hover {
 		background-color: #262431;
 	  }
   
 	  .itemText {
 		font: 700 0.75rem/1.5rem "Montserrat", sans-serif;
+		padding: 1px 1rem;
 	  }
   
 	  &:hover .itemText {
 		color: $blue;
+		background: #FFF;
+		
 	  }
 	}
   

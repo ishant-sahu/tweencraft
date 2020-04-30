@@ -2,25 +2,25 @@
   "errors": [],
   "warnings": [],
   "version": "4.42.0",
-  "hash": "ec4936928f343bcee5ba",
+  "hash": "5386f66c7939cea733be",
   "publicPath": "",
   "outputPath": "/mnt/codebase/chimpoon/build",
   "assetsByChunkName": {
     "Home": [
-      "Home.css",
-      "Home.bundle.js"
+      "0.fa949037.css",
+      "0.bundle.js"
     ],
     "main": [
-      "main.css",
+      "main.aa411781.css",
       "bundle.js"
     ]
   },
   "assets": [
     {
-      "name": "Home.bundle.js",
-      "size": 207338,
+      "name": "0.bundle.js",
+      "size": 69270,
       "chunks": [
-        "Home"
+        0
       ],
       "chunkNames": [
         "Home"
@@ -29,20 +29,518 @@
       "emitted": false
     },
     {
-      "name": "Home.css",
-      "size": 33556,
+      "name": "0.fa949037.css",
+      "size": 20775,
       "chunks": [
-        "Home"
+        0
       ],
       "chunkNames": [
         "Home"
       ],
-      "info": {},
+      "info": {
+        "immutable": true
+      },
       "emitted": false
     },
     {
       "name": "appu.6eabf861.png",
       "size": 210602,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-144x144.png",
+      "size": 16577,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-192x192.png",
+      "size": 25329,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-256x256.png",
+      "size": 40989,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-36x36.png",
+      "size": 2080,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-384x384.png",
+      "size": 75627,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-48x48.png",
+      "size": 3052,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-512x512.png",
+      "size": 118865,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-72x72.png",
+      "size": 5891,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/android-chrome-96x96.png",
+      "size": 8469,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-1024x1024.png",
+      "size": 322102,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-114x114.png",
+      "size": 10926,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-120x120.png",
+      "size": 11804,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-144x144.png",
+      "size": 15470,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-152x152.png",
+      "size": 17098,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-167x167.png",
+      "size": 19770,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-180x180.png",
+      "size": 22147,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-57x57.png",
+      "size": 3804,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-60x60.png",
+      "size": 4119,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-72x72.png",
+      "size": 5441,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-76x76.png",
+      "size": 5953,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon-precomposed.png",
+      "size": 22147,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-icon.png",
+      "size": 22147,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1125x2436.png",
+      "size": 382355,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1136x640.png",
+      "size": 160639,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1242x2208.png",
+      "size": 442818,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1242x2688.png",
+      "size": 445903,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1334x750.png",
+      "size": 205936,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1536x2048.png",
+      "size": 614683,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1620x2160.png",
+      "size": 670315,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1668x2224.png",
+      "size": 701762,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1668x2388.png",
+      "size": 702303,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-1792x828.png",
+      "size": 242587,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2048x1536.png",
+      "size": 621145,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2048x2732.png",
+      "size": 967084,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2160x1620.png",
+      "size": 676988,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2208x1242.png",
+      "size": 452183,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2224x1668.png",
+      "size": 709300,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2388x1668.png",
+      "size": 713034,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2436x1125.png",
+      "size": 393218,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2688x1242.png",
+      "size": 459362,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-2732x2048.png",
+      "size": 978449,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-640x1136.png",
+      "size": 159732,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-750x1334.png",
+      "size": 204288,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/apple-touch-startup-image-828x1792.png",
+      "size": 237946,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/browserconfig.xml",
+      "size": 445,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/coast-228x228.png",
+      "size": 31700,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/favicon-16x16.png",
+      "size": 659,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/favicon-32x32.png",
+      "size": 1415,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/favicon-48x48.png",
+      "size": 3052,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/favicon.ico",
+      "size": 33310,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/firefox_app_128x128.png",
+      "size": 14454,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/firefox_app_512x512.png",
+      "size": 124473,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/firefox_app_60x60.png",
+      "size": 4431,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/manifest.json",
+      "size": 1328,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/manifest.webapp",
+      "size": 317,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/mstile-144x144.png",
+      "size": 16577,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/mstile-150x150.png",
+      "size": 17859,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/mstile-310x150.png",
+      "size": 18357,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/mstile-310x310.png",
+      "size": 54893,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/mstile-70x70.png",
+      "size": 5663,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/yandex-browser-50x50.png",
+      "size": 3408,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "assets/yandex-browser-manifest.json",
+      "size": 155,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -73,10 +571,18 @@
       "emitted": false
     },
     {
+      "name": "bulla.36ac5398.png",
+      "size": 58461,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "bundle.js",
-      "size": 71094,
+      "size": 12819,
       "chunks": [
-        "main"
+        1
       ],
       "chunkNames": [
         "main"
@@ -85,8 +591,24 @@
       "emitted": false
     },
     {
+      "name": "chimpu.de2e2093.png",
+      "size": 95407,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "contact-background.ee8f3089.jpg",
       "size": 40590,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "deadpool.7f64156d.png",
+      "size": 84881,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -125,6 +647,14 @@
       "emitted": false
     },
     {
+      "name": "doctor.113a704d.png",
+      "size": 141991,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "download-background.38ea9c8e.jpg",
       "size": 133087,
       "chunks": [],
@@ -135,6 +665,14 @@
     {
       "name": "download.69895db4.png",
       "size": 301715,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "face_a.0fd1b54a.png",
+      "size": 39344,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -173,6 +711,22 @@
       "emitted": false
     },
     {
+      "name": "g_one.adf3a019.png",
+      "size": 143937,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ghost.f2d7b257.png",
+      "size": 86225,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "header-background.6133c986.jpg",
       "size": 133083,
       "chunks": [],
@@ -189,14 +743,200 @@
       "emitted": false
     },
     {
-      "name": "main.css",
-      "size": 19780,
+      "name": "ik.4b113f8a.png",
+      "size": 101614,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ironman.1071026b.png",
+      "size": 153662,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "jack.61db325a.png",
+      "size": 308792,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "jesus.2e419a21.png",
+      "size": 137658,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "jill.63406c0d.png",
+      "size": 274494,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "kejriwal.9c06bf3d.png",
+      "size": 35076,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "lady.d4eeb85d.png",
+      "size": 155376,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "lov.f834be1e.png",
+      "size": 133436,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "luke.fbce8a87.png",
+      "size": 93246,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.aa411781.css",
+      "size": 19213,
       "chunks": [
-        "main"
+        1
       ],
       "chunkNames": [
         "main"
       ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "meme_face.c60902bd.png",
+      "size": 127860,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "mental.f202ca1f.png",
+      "size": 156738,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "mirchi.6de9a755.png",
+      "size": 89106,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "namo.91f57a91.png",
+      "size": 191067,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "nikki.1b8d2f73.png",
+      "size": 155059,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ninja.fe4c057f.png",
+      "size": 89542,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "old_man.cdb1b171.png",
+      "size": 120581,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pappu.4fc01cbb.png",
+      "size": 41605,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pinki.2bbc7e10.png",
+      "size": 67953,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "raga.3b43668c.png",
+      "size": 37353,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "rasheed.8899888d.png",
+      "size": 184849,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "rinki.4a594e18.png",
+      "size": 95776,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "salman_khan.07c883c7.png",
+      "size": 139517,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "santa.a6cd0b51.png",
+      "size": 251840,
+      "chunks": [],
+      "chunkNames": [],
       "info": {},
       "emitted": false
     },
@@ -281,6 +1021,54 @@
       "emitted": false
     },
     {
+      "name": "shah.c7e0d6c1.png",
+      "size": 196099,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "snowman.b8b2993f.png",
+      "size": 243297,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "sophie.46dcedf3.png",
+      "size": 193671,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "stickman_b.39aadb5b.png",
+      "size": 33379,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "stickman_w.811f65c5.png",
+      "size": 36574,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "tac.30fde3ae.png",
+      "size": 82076,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "testimonial-1.eaa9b2b4.jpg",
       "size": 13944,
       "chunks": [],
@@ -329,6 +1117,38 @@
       "emitted": false
     },
     {
+      "name": "tic.9b56f227.png",
+      "size": 170370,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "timpu.74be8ae6.png",
+      "size": 73990,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "toe.6d95fb1a.png",
+      "size": 113131,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "tom.09984b13.png",
+      "size": 173618,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "tweencraft.3cd36e10.png",
       "size": 210037,
       "chunks": [],
@@ -357,10 +1177,10 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        "main"
+        1
       ],
       "assets": [
-        "main.css",
+        "main.aa411781.css",
         "bundle.js"
       ],
       "children": {},
@@ -370,10 +1190,10 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        "main"
+        1
       ],
       "assets": [
-        "main.css",
+        "main.aa411781.css",
         "bundle.js"
       ],
       "children": {},
@@ -381,11 +1201,11 @@
     },
     "Home": {
       "chunks": [
-        "Home"
+        0
       ],
       "assets": [
-        "Home.css",
-        "Home.bundle.js"
+        "0.fa949037.css",
+        "0.bundle.js"
       ],
       "children": {},
       "childAssets": {}
@@ -402,6 +1222,65 @@
     {
       "errors": [],
       "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/mnt/codebase/chimpoon/build",
+      "assetsByChunkName": {
+        "favicon.png": "1e2fe7ccdd3455dcf971"
+      },
+      "assets": [
+        {
+          "name": "1e2fe7ccdd3455dcf971",
+          "size": 16353904,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "favicon.png"
+          ],
+          "info": {
+            "immutable": true
+          },
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "favicon.png": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "1e2fe7ccdd3455dcf971"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "favicon.png": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "1e2fe7ccdd3455dcf971"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "favicons-webpack-plugin"
+    },
+    {
+      "errors": [],
+      "warnings": [],
       "publicPath": "",
       "outputPath": "/mnt/codebase/chimpoon/build",
       "assetsByChunkName": {},
@@ -410,7 +1289,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -422,7 +1301,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -452,7 +1331,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -464,7 +1343,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -494,7 +1373,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -506,7 +1385,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -536,7 +1415,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -548,7 +1427,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -578,7 +1457,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -590,7 +1469,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -620,7 +1499,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -632,7 +1511,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -662,7 +1541,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -674,7 +1553,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -704,7 +1583,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -716,7 +1595,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -746,7 +1625,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -758,7 +1637,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -788,7 +1667,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -800,7 +1679,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -830,7 +1709,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -842,7 +1721,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -872,7 +1751,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -884,7 +1763,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -914,7 +1793,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -926,7 +1805,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -956,7 +1835,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -968,7 +1847,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -998,7 +1877,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -1010,7 +1889,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -1040,7 +1919,7 @@
       "entrypoints": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
@@ -1052,7 +1931,7 @@
       "namedChunkGroups": {
         "mini-css-extract-plugin": {
           "chunks": [
-            "mini-css-extract-plugin"
+            0
           ],
           "assets": [
             "*"
