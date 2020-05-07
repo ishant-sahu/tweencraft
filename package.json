@@ -22,7 +22,7 @@
     "prod": "cross-env NODE_ENV=production SSR=true npm-run-all --parallel prod:*",
     "prod:build-server": "webpack --config  webpack.server.js",
     "prod:build-client": " cross-env NODE_ENV=production BASE=public webpack --config webpack.client.js",
-    "prod:github": " cross-env NODE_ENV=production BASE=chimpoon webpack --config webpack.client.js",
+    "prod:github": " cross-env NODE_ENV=production BASE=tweencraft webpack --config webpack.client.js",
     "build": "cross-env NODE_ENV=production SSR=true  npm-run-all --parallel build:* && npm run run-server",
     "build:client": "webpack  --config webpack.client.js",
     "build:server": "webpack --config webpack.server.js",
