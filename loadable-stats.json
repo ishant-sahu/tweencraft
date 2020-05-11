@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.42.0",
-  "hash": "f630d09e222d5d5e666d",
+  "hash": "2134180180eaa329cf82",
   "publicPath": "",
   "outputPath": "/mnt/codebase/tweencraft/public",
   "assetsByChunkName": {
@@ -60,7 +60,7 @@
     ],
     "main": [
       "main.9cee7ef4.css",
-      "main.c71d545c.js"
+      "main.18070ebd.js"
     ]
   },
   "assets": [
@@ -1197,8 +1197,8 @@
       "emitted": false
     },
     {
-      "name": "main.9cee7ef4.css",
-      "size": 22837,
+      "name": "main.18070ebd.js",
+      "size": 314393,
       "chunks": [
         13
       ],
@@ -1211,8 +1211,8 @@
       "emitted": false
     },
     {
-      "name": "main.c71d545c.js",
-      "size": 314365,
+      "name": "main.9cee7ef4.css",
+      "size": 22837,
       "chunks": [
         13
       ],
@@ -1593,7 +1593,7 @@
       ],
       "assets": [
         "main.9cee7ef4.css",
-        "main.c71d545c.js"
+        "main.18070ebd.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1606,7 +1606,7 @@
       ],
       "assets": [
         "main.9cee7ef4.css",
-        "main.c71d545c.js"
+        "main.18070ebd.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1774,7 +1774,7 @@
       "assets": [
         {
           "name": "__child-HtmlWebpackPlugin_0",
-          "size": 5725,
+          "size": 7061,
           "chunks": [
             0
           ],
