@@ -2,36 +2,76 @@
   "errors": [],
   "warnings": [],
   "version": "4.42.0",
-  "hash": "5a38d9392a9a1bbee5f3",
+  "hash": "f630d09e222d5d5e666d",
   "publicPath": "",
   "outputPath": "/mnt/codebase/tweencraft/public",
   "assetsByChunkName": {
+    "CallOfAction": [
+      "0.3baa437b.css",
+      "0.a6b9d51d.js"
+    ],
+    "Characters": [
+      "1.273d6b78.css",
+      "1.8782b4a6.js"
+    ],
     "Contact": [
-      "0.e82c5c72.css",
-      "0.24627e14.js"
+      "2.5033373b.css",
+      "2.723a7faa.js"
     ],
     "Home": [
-      "1.925ea78e.css",
-      "1.9e7dbf8e.js"
+      "3.925ea78e.css",
+      "3.82f84066.js"
+    ],
+    "Login": [
+      "4.c33ea874.css",
+      "4.6741025c.js"
+    ],
+    "Logo": [
+      "5.5ae73f47.css",
+      "5.8db35d79.js"
+    ],
+    "Orders": [
+      "6.87582aa0.css",
+      "6.25f2e4a9.js"
+    ],
+    "Payment": [
+      "7.fb49de15.css",
+      "7.8244879d.js"
+    ],
+    "Pricing": [
+      "8.5560a88e.css",
+      "8.1bd26668.js"
     ],
     "Samples": [
-      "2.e7b9d665.css",
-      "2.30f38083.js"
+      "9.e7b9d665.css",
+      "9.9e6af76d.js"
+    ],
+    "Script": [
+      "10.35e53958.css",
+      "10.f3e6c687.js"
+    ],
+    "SingleOrder": [
+      "11.9733b338.css",
+      "11.503229f1.js"
+    ],
+    "VideoInformation": [
+      "12.31b1b1be.css",
+      "12.2d90c026.js"
     ],
     "main": [
-      "main.a1314454.css",
-      "main.fdbd2e74.js"
+      "main.9cee7ef4.css",
+      "main.c71d545c.js"
     ]
   },
   "assets": [
     {
-      "name": "0.24627e14.js",
-      "size": 6859,
+      "name": "0.3baa437b.css",
+      "size": 195,
       "chunks": [
         0
       ],
       "chunkNames": [
-        "Contact"
+        "CallOfAction"
       ],
       "info": {
         "immutable": true
@@ -39,13 +79,13 @@
       "emitted": false
     },
     {
-      "name": "0.e82c5c72.css",
-      "size": 482,
+      "name": "0.a6b9d51d.js",
+      "size": 7508,
       "chunks": [
         0
       ],
       "chunkNames": [
-        "Contact"
+        "CallOfAction"
       ],
       "info": {
         "immutable": true
@@ -53,13 +93,13 @@
       "emitted": false
     },
     {
-      "name": "1.925ea78e.css",
-      "size": 2021,
+      "name": "1.273d6b78.css",
+      "size": 1436,
       "chunks": [
         1
       ],
       "chunkNames": [
-        "Home"
+        "Characters"
       ],
       "info": {
         "immutable": true
@@ -67,10 +107,136 @@
       "emitted": false
     },
     {
-      "name": "1.9e7dbf8e.js",
+      "name": "1.8782b4a6.js",
+      "size": 23570,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "Characters"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "10.35e53958.css",
+      "size": 533,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [
+        "Script"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "10.f3e6c687.js",
+      "size": 8246,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [
+        "Script"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "11.503229f1.js",
+      "size": 4414,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "SingleOrder"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "11.9733b338.css",
+      "size": 287,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "SingleOrder"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "12.2d90c026.js",
+      "size": 5745,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "VideoInformation"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "12.31b1b1be.css",
+      "size": 71,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "VideoInformation"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "2.5033373b.css",
+      "size": 100,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "Contact"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "2.723a7faa.js",
+      "size": 3747,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "Contact"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "3.82f84066.js",
       "size": 5315,
       "chunks": [
-        1
+        3
       ],
       "chunkNames": [
         "Home"
@@ -81,10 +247,164 @@
       "emitted": false
     },
     {
-      "name": "2.30f38083.js",
+      "name": "3.925ea78e.css",
+      "size": 2021,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "4.6741025c.js",
+      "size": 5184,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "Login"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "4.c33ea874.css",
+      "size": 71,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "Login"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "5.5ae73f47.css",
+      "size": 189,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "Logo"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "5.8db35d79.js",
+      "size": 6250,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "Logo"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "6.25f2e4a9.js",
+      "size": 6598,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "Orders"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "6.87582aa0.css",
+      "size": 293,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "Orders"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "7.8244879d.js",
+      "size": 4972,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "Payment"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "7.fb49de15.css",
+      "size": 100,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "Payment"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "8.1bd26668.js",
+      "size": 4933,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "Pricing"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "8.5560a88e.css",
+      "size": 508,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "Pricing"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "9.9e6af76d.js",
       "size": 7386,
       "chunks": [
-        2
+        9
       ],
       "chunkNames": [
         "Samples"
@@ -95,10 +415,10 @@
       "emitted": false
     },
     {
-      "name": "2.e7b9d665.css",
+      "name": "9.e7b9d665.css",
       "size": 2870,
       "chunks": [
-        2
+        9
       ],
       "chunkNames": [
         "Samples"
@@ -106,6 +426,14 @@
       "info": {
         "immutable": true
       },
+      "emitted": false
+    },
+    {
+      "name": "appu.6eabf861.png",
+      "size": 210602,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
       "emitted": false
     },
     {
@@ -605,6 +933,62 @@
       "emitted": false
     },
     {
+      "name": "aunty.86c4e09e.png",
+      "size": 116871,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "bhari_babu.30751e24.png",
+      "size": 143776,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "boss.01da8517.png",
+      "size": 82448,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "bulla.36ac5398.png",
+      "size": 58461,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "chimpu.de2e2093.png",
+      "size": 95407,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "corner-logo.f08a8584.jpg",
+      "size": 235697,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "deadpool.7f64156d.png",
+      "size": 84881,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "details-1-iphone.1aeb2f37.png",
       "size": 292785,
       "chunks": [],
@@ -637,8 +1021,40 @@
       "emitted": false
     },
     {
+      "name": "doctor.113a704d.png",
+      "size": 141991,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "download.69895db4.png",
       "size": 301715,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "end-logo.19814db8.jpg",
+      "size": 149922,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "end.31641b92.jpg",
+      "size": 171791,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "face_a.0fd1b54a.png",
+      "size": 39344,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -677,6 +1093,22 @@
       "emitted": false
     },
     {
+      "name": "g_one.adf3a019.png",
+      "size": 143937,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ghost.f2d7b257.png",
+      "size": 86225,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "header-iphone.04497e3d.png",
       "size": 114493,
       "chunks": [],
@@ -685,10 +1117,90 @@
       "emitted": false
     },
     {
-      "name": "main.a1314454.css",
-      "size": 20396,
+      "name": "ik.4b113f8a.png",
+      "size": 101614,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "in-dialogue.832affb9.jpg",
+      "size": 353117,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ironman.1071026b.png",
+      "size": 153662,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "jack.61db325a.png",
+      "size": 308792,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "jesus.2e419a21.png",
+      "size": 137658,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "jill.63406c0d.png",
+      "size": 274494,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "kejriwal.9c06bf3d.png",
+      "size": 35076,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "lady.d4eeb85d.png",
+      "size": 155376,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "lov.f834be1e.png",
+      "size": 133436,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "luke.fbce8a87.png",
+      "size": 93246,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.9cee7ef4.css",
+      "size": 22837,
       "chunks": [
-        3
+        13
       ],
       "chunkNames": [
         "main"
@@ -699,10 +1211,10 @@
       "emitted": false
     },
     {
-      "name": "main.fdbd2e74.js",
-      "size": 291687,
+      "name": "main.c71d545c.js",
+      "size": 314365,
       "chunks": [
-        3
+        13
       ],
       "chunkNames": [
         "main"
@@ -710,6 +1222,126 @@
       "info": {
         "immutable": true
       },
+      "emitted": false
+    },
+    {
+      "name": "meme_face.c60902bd.png",
+      "size": 127860,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "mental.f202ca1f.png",
+      "size": 156738,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "mirchi.6de9a755.png",
+      "size": 89106,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "namo.91f57a91.png",
+      "size": 191067,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "nikki.1b8d2f73.png",
+      "size": 155059,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ninja.fe4c057f.png",
+      "size": 89542,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "old_man.cdb1b171.png",
+      "size": 120581,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pappu.4fc01cbb.png",
+      "size": 41605,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "payment.7cf1aa9c.png",
+      "size": 35286,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pinki.2bbc7e10.png",
+      "size": 67953,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "raga.3b43668c.png",
+      "size": 37353,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "rasheed.8899888d.png",
+      "size": 184849,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "rinki.4a594e18.png",
+      "size": 95776,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "salman_khan.07c883c7.png",
+      "size": 139517,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "santa.a6cd0b51.png",
+      "size": 251840,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
       "emitted": false
     },
     {
@@ -793,6 +1425,70 @@
       "emitted": false
     },
     {
+      "name": "shah.c7e0d6c1.png",
+      "size": 196099,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "snowman.b8b2993f.png",
+      "size": 243297,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "sophie.46dcedf3.png",
+      "size": 193671,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "start-logo.1c7e6410.jpg",
+      "size": 146214,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "start.e98545ca.jpg",
+      "size": 166226,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "stickman_b.39aadb5b.png",
+      "size": 33379,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "stickman_w.811f65c5.png",
+      "size": 36574,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "tac.30fde3ae.png",
+      "size": 82076,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "testimonial-1.eaa9b2b4.jpg",
       "size": 13944,
       "chunks": [],
@@ -841,6 +1537,38 @@
       "emitted": false
     },
     {
+      "name": "tic.9b56f227.png",
+      "size": 170370,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "timpu.74be8ae6.png",
+      "size": 73990,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "toe.6d95fb1a.png",
+      "size": 113131,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "tom.09984b13.png",
+      "size": 173618,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "tweencraft.3cd36e10.png",
       "size": 210037,
       "chunks": [],
@@ -861,11 +1589,11 @@
   "entrypoints": {
     "main": {
       "chunks": [
-        3
+        13
       ],
       "assets": [
-        "main.a1314454.css",
-        "main.fdbd2e74.js"
+        "main.9cee7ef4.css",
+        "main.c71d545c.js"
       ],
       "children": {},
       "childAssets": {}
@@ -874,44 +1602,154 @@
   "namedChunkGroups": {
     "main": {
       "chunks": [
-        3
+        13
       ],
       "assets": [
-        "main.a1314454.css",
-        "main.fdbd2e74.js"
+        "main.9cee7ef4.css",
+        "main.c71d545c.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "Home": {
       "chunks": [
-        1
+        3
       ],
       "assets": [
-        "1.925ea78e.css",
-        "1.9e7dbf8e.js"
+        "3.925ea78e.css",
+        "3.82f84066.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "Samples": {
       "chunks": [
-        2
+        9
       ],
       "assets": [
-        "2.e7b9d665.css",
-        "2.30f38083.js"
+        "9.e7b9d665.css",
+        "9.9e6af76d.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "Contact": {
       "chunks": [
+        2
+      ],
+      "assets": [
+        "2.5033373b.css",
+        "2.723a7faa.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Pricing": {
+      "chunks": [
+        8
+      ],
+      "assets": [
+        "8.5560a88e.css",
+        "8.1bd26668.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Login": {
+      "chunks": [
+        4
+      ],
+      "assets": [
+        "4.c33ea874.css",
+        "4.6741025c.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "VideoInformation": {
+      "chunks": [
+        12
+      ],
+      "assets": [
+        "12.31b1b1be.css",
+        "12.2d90c026.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Script": {
+      "chunks": [
+        10
+      ],
+      "assets": [
+        "10.35e53958.css",
+        "10.f3e6c687.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "CallOfAction": {
+      "chunks": [
         0
       ],
       "assets": [
-        "0.e82c5c72.css",
-        "0.24627e14.js"
+        "0.3baa437b.css",
+        "0.a6b9d51d.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Characters": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "1.273d6b78.css",
+        "1.8782b4a6.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Logo": {
+      "chunks": [
+        5
+      ],
+      "assets": [
+        "5.5ae73f47.css",
+        "5.8db35d79.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Payment": {
+      "chunks": [
+        7
+      ],
+      "assets": [
+        "7.fb49de15.css",
+        "7.8244879d.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Orders": {
+      "chunks": [
+        6
+      ],
+      "assets": [
+        "6.87582aa0.css",
+        "6.25f2e4a9.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "SingleOrder": {
+      "chunks": [
+        11
+      ],
+      "assets": [
+        "11.9733b338.css",
+        "11.503229f1.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1123,6 +1961,90 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/CallOfAction/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Characters/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Contact/styles.scss"
     },
     {
@@ -1249,6 +2171,90 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Login/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Logo/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/NavBar/styles.scss"
     },
     {
@@ -1291,7 +2297,259 @@
         }
       },
       "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Orders/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Payment/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Pricing/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
       "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Samples/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/Script/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/SingleOrder/styles.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/mnt/codebase/tweencraft/public",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/dist/cjs.js??ref--6-3!src/client/components/VideoInformation/styles.scss"
     }
   ]
 }
