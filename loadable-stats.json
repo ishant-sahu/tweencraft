@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.42.0",
-  "hash": "2134180180eaa329cf82",
+  "hash": "4bfa554eb62d7e4bffc5",
   "publicPath": "",
   "outputPath": "/mnt/codebase/tweencraft/public",
   "assetsByChunkName": {
@@ -1769,7 +1769,8 @@
       "publicPath": "",
       "outputPath": "/mnt/codebase/tweencraft/public",
       "assetsByChunkName": {
-        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0",
+        "HtmlWebpackPlugin_1": "__child-HtmlWebpackPlugin_1"
       },
       "assets": [
         {
@@ -1780,6 +1781,18 @@
           ],
           "chunkNames": [
             "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        },
+        {
+          "name": "__child-HtmlWebpackPlugin_1",
+          "size": 5834,
+          "chunks": [
+            1
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_1"
           ],
           "info": {},
           "emitted": false
@@ -1796,6 +1809,16 @@
           ],
           "children": {},
           "childAssets": {}
+        },
+        "HtmlWebpackPlugin_1": {
+          "chunks": [
+            1
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "children": {},
+          "childAssets": {}
         }
       },
       "namedChunkGroups": {
@@ -1805,6 +1828,16 @@
           ],
           "assets": [
             "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        },
+        "HtmlWebpackPlugin_1": {
+          "chunks": [
+            1
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_1"
           ],
           "children": {},
           "childAssets": {}
