@@ -1,8 +1,5 @@
 @import '../../../assets/styles/colors.scss';
 .header {
-  background-image: linear-gradient(135deg, #5f1802, #ec5f31);
-  min-height: calc(100vh);
-  padding-top: 5.25rem;
   .headerContent {
     text-align: center;
     padding-top: 1rem;
@@ -97,10 +94,7 @@
       border-bottom: 1rem solid transparent;
     }
   }
-  .button{
-    margin-top: 1.5rem;
-    width: 40%;
-  }
+  
 }
 
 @media (max-width: 768px){
@@ -114,9 +108,7 @@
     .imageContainer {
       max-width: 48rem;
     }
-    .button{
-      width: 100%;
-    }
+    
   }
 }
 

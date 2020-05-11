@@ -1,42 +1,14 @@
-.form {
-    padding-top: 6.25rem;
-    padding-bottom: 5.625rem;
-    background: url('../../images/contact-background.jpg') center bottom no-repeat;
-    background-size: cover;
-  
-    h2 {
-      margin-bottom: 1.125rem;
-      text-align: center;
+
+  .contact{
+    text-align: center;
+    .item{
+      margin: 15px 0;
     }
-  
-    .listUnstyled {
-      margin-bottom: 3.75rem;
-      font-size: 1rem;
-      line-height: 1.5rem;
-      text-align: center;
-  
-      .fas, .fab {
-        margin-right: 0.5rem;
-        font-size: 0.875rem;
-        color: #00c9db;
-      }
-  
-      .fa-phone {
-        vertical-align: 3%;
-      }
+    img{
+      width: 100px;
+      margin-right:10px;
     }
   }
-
   @media (min-width: 768px) {
-    .form .listUnstyled {
-      li {
-        display: inline-block;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
-      }
-  
-      .address {
-        display: block;
-      }
-    }
+   
   }

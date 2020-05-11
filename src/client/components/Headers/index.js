@@ -87,7 +87,7 @@ class Headers extends React.Component {
               </div>
             </div>
             <div className='form-group'>
-              <button type='submit' className={`form-control-submit-button ${styles.button}`}>
+              <button type='submit' className={`form-control-submit-button order-button`}>
                 ORDER NOW
               </button>
             </div>

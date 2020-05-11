@@ -1,0 +1,25 @@
+
+  .callOfAction{
+    text-align: center;
+    padding: 1rem;
+    .item{
+      margin: 15px 0;
+    }
+    .imgItem{
+      margin: 10px 0 30px 0;
+      
+    }
+    img{
+      width: 100%;
+      
+    }
+    .labelText{
+      padding: 14px 3rem;
+      &:after{
+        left: 8px;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+   
+  }

@@ -1,11 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { homeAction } from '../../actions';
-import NavBar from '../../components/NavBar/';
+import { action } from '../../actions';
 import Headers from '../../components/Headers/';
-import Contact from '../../components/Contact';
-
-import styles from './styles.scss';
 
 class Home extends React.Component {
   componentDidMount() {
@@ -13,26 +9,20 @@ class Home extends React.Component {
   }
 
   render() {
-    const { homeData } = this.props;
-    let funnyStories = [];
-    let commercialStories = [];
-    if (homeData && homeData.data && homeData.data.length > 0) {
-      (homeData.data || []).forEach((item) => {
-        if (item.type === 'funny') {
-          funnyStories = item.arr || [];
-        }
-        if (item.type === 'commercial') {
-          commercialStories = item.arr || [];
-        }
-      });
-    }
+    // const { homeData } = this.props;
+    // if (homeData && homeData.data && homeData.data.length > 0) {
+    //   (homeData.data || []).forEach((item) => {
+    //     if (item.type === 'funny') {
+    //       funnyStories = item.arr || [];
+    //     }
+    //     if (item.type === 'commercial') {
+    //       commercialStories = item.arr || [];
+    //     }
+    //   });
+    // }
     return (
-      <div className={styles.Home}>
-        <NavBar />
+      <div >
         <Headers />
-
-       
-        {/* <Contact /> */}
       </div>
     );
   }
@@ -43,7 +33,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchStories: () => dispatch(homeAction.fetchStories()),
+  fetchStories: () => dispatch(action.fetchStories()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);

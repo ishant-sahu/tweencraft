@@ -1,10 +1,10 @@
 {
-  "homepage": "https://ishant-sahu.github.io/chimpoon",
+  "homepage": "https://ishant-sahu.github.io/tweencraft",
   "name": "Tweenkraft",
   "version": "1.0.0",
   "description": "Repository for zoom collections",
   "main": "index.js",
-  "repository": "https://github.com/chimpoon/",
+  "repository": "https://github.com/tweencraft/",
   "author": "Ishant Sahu",
   "license": "MIT",
   "private": false,

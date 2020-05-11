@@ -1,3 +1,3 @@
-import * as homeAction from './home';
+import * as action from './home';
 
-export { homeAction };
+export { action };

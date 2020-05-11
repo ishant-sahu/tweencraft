@@ -1,0 +1,49 @@
+.pricing {
+  text-align: center;
+  padding: 1rem 0;
+  h4 {
+  }
+  .pricingWrapper {
+    margin-top: 30px;
+  }
+  .flexWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+  }
+  .tableWrapper {
+    table {
+      margin: 0 auto;
+      tr {
+        td {
+          padding: 10px;
+        }
+      }
+    }
+    table,
+    tr,
+    td {
+      border: 1px solid;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .pricing {
+    .tableWrapper {
+      margin: 30px 0 30px 0;
+      table {
+        margin: 0 auto;
+        tr {
+          td {
+            padding: 5px;
+          }
+        }
+      }
+    }
+    .flexWrapper {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  }
+}
