@@ -902,4 +902,27 @@ a:hover.back-to-top {
     padding-top: 6.5rem;
   }
 }
+
+#pricing::before { 
+  display: block; 
+  content: " "; 
+  margin-top:2.7rem ; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+#samples::before { 
+  display: block; 
+  content: " "; 
+  margin-top:2.7rem ; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+#how-it-works::before { 
+  display: block; 
+  content: " "; 
+  margin-top:2.7rem ; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
 /* end of min-width width 1200px */

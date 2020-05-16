@@ -25,7 +25,7 @@ export { default as screenShot8 } from './tweenkraft/screenshot-8.png';
 export { default as screenShot9 } from './tweenkraft/screenshot-9.png';
 export { default as screenShot10 } from './tweenkraft/screenshot-10.png';
 export { default as download } from './tweenkraft/download.png';
-export { default as qrCode } from './tweenkraft/tweencraft.png';
+export { default as qrCode } from './assets/qr-code.jpeg';
 export { default as phonepe } from './assets/phonepe.svg';
 export { default as paytm } from './assets/paytm.svg';
 export { default as whatsapp } from './assets/whatsapp.svg';

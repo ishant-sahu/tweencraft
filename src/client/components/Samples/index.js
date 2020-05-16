@@ -82,7 +82,7 @@ class SamplesComponent extends React.Component {
   renderSliderContainer() {
     const { stories } = this.props;
     return (
-      <div className={styles.videoList}>
+      <div id="samples" className={styles.videoList}>
         <h2 className={styles.h2}>SAMPLES</h2>
         <div className={styles.slider2} id={'videoList'}>
           <div className='container'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles.scss';
 import { Link } from 'react-router-dom';
+import {qrCode} from '../../images/'
 
 class PricingComponent extends React.Component {
 
@@ -25,25 +26,6 @@ class PricingComponent extends React.Component {
           </div>
 
           <div className={styles.flexWrapper}>
-            {/* <div className={styles.tableWrapper}>
-            <h6>You provide the script for the video</h6>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Advanced amount (not refundable)</td>
-                  <td>&#8377; 300 </td>
-                </tr>
-                <tr>
-                  <td>After video completion</td>
-                  <td>&#8377; 588 </td>
-                </tr>
-                <tr>
-                  <td>Total</td>
-                  <td>&#8377; 888 </td>
-                </tr>
-              </tbody>
-            </table>
-          </div> */}
             <div className={styles.tableWrapper}>
               {/* <h6>We develop the script</h6> */}
               <table>
@@ -59,6 +41,10 @@ class PricingComponent extends React.Component {
                   <tr>
                     <td>Total</td>
                     <td>&#8377; 1200 </td>
+                  </tr>
+                  <tr>
+                    <td>UPI No.</td>
+                    <td>9900158160 </td>
                   </tr>
                 </tbody>
               </table>

@@ -12,6 +12,11 @@ import Footer from '../../components/Footer/';
 class Home extends React.Component {
   componentDidMount() {
     this.props.sendEvent();
+    if($){
+      $('.page-scroll').click((e) => {
+        this.props.sendEvent({type: 'link_clicked', data: {name: $(e.target).text()}} );
+      })
+    }
   }
 
   render() {

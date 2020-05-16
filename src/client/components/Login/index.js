@@ -47,7 +47,7 @@ class LoginComponent extends React.Component {
     
     const { name, phone } = this.state;
     if(re.test(phone)){
-      this.props.sendEvent({ name, phone });
+      this.props.sendEvent({ type: 'order_request', data:{name, phone} });
       
       toast.success('We have received your request.Our team will get back to you in some time.', {
         position: "top-right",
