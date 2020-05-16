@@ -1,18 +1,20 @@
 .pricing {
   text-align: center;
-  padding: 1rem 0;
+  padding: 4rem 0;
+  background: #2f2c3d;
   h4 {
   }
   .pricingWrapper {
     margin-top: 30px;
   }
   .flexWrapper {
-    display: flex;
-    justify-content: space-around;
+    //display: flex;
+    //justify-content: space-around;
     margin-top: 70px;
   }
   .tableWrapper {
     table {
+      width:40%;
       margin: 0 auto;
       tr {
         td {
@@ -32,6 +34,7 @@
     .tableWrapper {
       margin: 30px 0 30px 0;
       table {
+        width: 100%;
         margin: 0 auto;
         tr {
           td {

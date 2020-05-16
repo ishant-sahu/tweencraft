@@ -5,7 +5,7 @@ import VideoInformationComponent from '../../components/VideoInformation/';
 
 class VideoInformation extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+    //this.props.fetchSamples();
   }
 
   render() {

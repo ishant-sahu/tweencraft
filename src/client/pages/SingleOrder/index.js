@@ -5,7 +5,7 @@ import SingleOrderComponent from '../../components/SingleOrder';
 
 class SingleOrder extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+    //this.props.fetchSamples();
   }
 
   render() {

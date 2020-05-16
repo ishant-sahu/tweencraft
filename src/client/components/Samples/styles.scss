@@ -1,11 +1,11 @@
 .videoList {
+  padding: 4rem 0;
     .h2 {
       margin-bottom: 1.125rem;
       text-align: center;
     }
   
     .pHeading {
-      margin-bottom: 4rem;
       text-align: center;
     }
   
@@ -113,8 +113,8 @@
   }
   
   .slider2 {
-    padding-top: 6.875rem;
-    padding-bottom: 6.875rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   
     .sliderContainer {
       position: relative;
@@ -162,6 +162,9 @@
   }
 
   @media(max-width:768px){
+    .videoList{
+      padding: 2rem 0;
+    }
     .slider2{
       padding-top: 0;
       padding-bottom: 0;

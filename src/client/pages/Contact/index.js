@@ -5,7 +5,7 @@ import ContactComponent from '../../components/Contact/';
 
 class Contact extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+    this.props.sendEvent();
   }
 
   render() {
@@ -22,7 +22,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchSamples: () => dispatch(action.fetchSamples()),
+  sendEvent: () => dispatch(action.sendEvent()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Contact);

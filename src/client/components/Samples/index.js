@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.scss';
+import { Link } from 'react-router-dom';
 class SamplesComponent extends React.Component {
   componentDidMount() {
     if ($ && window) {
@@ -79,64 +80,68 @@ class SamplesComponent extends React.Component {
   }
 
   renderSliderContainer() {
-    const { stories, heading } = this.props;
+    const { stories } = this.props;
     return (
-      <div className={styles.slider2} id={'videoList'}>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-12'>
-              <h2 className={styles.h2}>{heading}</h2>
-              <div className={`p-heading p-large ${styles.pHeading}`}>
+      <div className={styles.videoList}>
+        <h2 className={styles.h2}>SAMPLES</h2>
+        <div className={styles.slider2} id={'videoList'}>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-lg-12'>
+                {/* <div className={`p-heading p-large ${styles.pHeading}`}>
                 Target the right customers for your business with the help of
                 Tweencraft's patented segmentation technology
+              </div> */}
               </div>
             </div>
-          </div>
-          <div className='row'>
-            <div className='col-lg-12'>
-              <div className={styles.sliderContainer}>
-                <div
-                  className={`swiper-container video-slider ${styles.swiperContainer} videoList`}
-                >
-                  <div className='swiper-wrapper'>
-                    {(stories || []).map((item) => {
-                      return (
-                        <div className='swiper-slide'>
-                          <a
-                            href={item.youtube_url}
-                            className='popup-youtube'
-                            data-effect='fadeIn'
-                          >
-                            <img
-                              className='img-fluid'
-                              src={item.thumbnail_path}
-                              alt='alternative'
-                            />
-                            <span className={styles.videoPlayButton}>
-                              <span></span>
-                            </span>
-                          </a>
-                        </div>
-                      );
-                    })}
+            <div className='row'>
+              <div className='col-lg-12'>
+                <div className={styles.sliderContainer}>
+                  <div
+                    className={`swiper-container video-slider ${styles.swiperContainer} videoList`}
+                  >
+                    <div className='swiper-wrapper'>
+                      {(stories || []).map((item) => {
+                        return (
+                          <div className='swiper-slide'>
+                            <a
+                              href={item.youtube_url}
+                              className='popup-youtube'
+                              data-effect='fadeIn'
+                            >
+                              <img
+                                className='img-fluid'
+                                src={item.thumbnail_url}
+                                alt='alternative'
+                              />
+                              <span className={styles.videoPlayButton}>
+                                <span></span>
+                              </span>
+                            </a>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
+                  <div
+                    className={`swiper-button-next ${styles.swiperButtonNext}`}
+                  ></div>
+                  <div
+                    className={`swiper-button-prev ${styles.swiperButtonPrev}`}
+                  ></div>
                 </div>
-                <div
-                  className={`swiper-button-next ${styles.swiperButtonNext}`}
-                ></div>
-                <div
-                  className={`swiper-button-prev ${styles.swiperButtonPrev}`}
-                ></div>
               </div>
             </div>
-          </div>
-          <div className='form-group' style={{textAlign:'center'}}>
-            <button
-              type='submit'
-              className={`form-control-submit-button order-button`}
-            >
-              ORDER NOW
-            </button>
+            {/* <div className='form-group' style={{ textAlign: 'center' }}>
+              <Link to='/order-now' style={{ textDecoration: 'none' }}>
+                <button
+                  type='submit'
+                  className={`form-control-submit-button order-button`}
+                >
+                  ORDER NOW
+                </button>
+              </Link>
+            </div> */}
           </div>
         </div>
       </div>
@@ -145,7 +150,7 @@ class SamplesComponent extends React.Component {
 
   render() {
     return (
-      <div id='preview' className={styles.videoList}>
+      <div id='samples'>
         {this.renderSliderContainer()}
       </div>
     );

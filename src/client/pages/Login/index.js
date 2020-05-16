@@ -5,13 +5,13 @@ import LoginComponent from '../../components/Login/';
 
 class Login extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+   this.props.sendEvent();
   }
 
   render() {
     return (
       <div>
-        <LoginComponent />
+        <LoginComponent sendEvent={this.props.sendEvent}  />
       </div>
     );
   }
@@ -22,7 +22,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchSamples: () => dispatch(action.fetchSamples()),
+  sendEvent: () => dispatch(action.sendEvent()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Login);

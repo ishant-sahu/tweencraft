@@ -5,7 +5,7 @@ import LogoComponent from '../../components/Logo/';
 
 class Logo extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+    //this.props.fetchSamples();
   }
 
   render() {

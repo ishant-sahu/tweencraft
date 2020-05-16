@@ -57,4 +57,9 @@ export const SingleOrder = loadable(() => import('./SingleOrder'), {
 });
 
 
+export const HowItWorks = loadable(() => import('./HowItWorks'), {
+  fallback:  <Loader />
+});
+
+
 

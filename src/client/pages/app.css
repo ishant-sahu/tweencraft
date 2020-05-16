@@ -482,6 +482,9 @@ input[type=file] {
 .help-block.with-errors ul {
   margin-bottom: 0;
 }
+hr{
+  color: #FFF;
+}
 /* end of form success and error message formatting */
 
 /* Form Success And Error Message Animation - Animate.css */
@@ -766,6 +769,27 @@ a:hover.back-to-top {
   background-color: #f9fafc;
 }
 
+.float{
+	position:fixed;
+	width:11rem;
+  height:60px;
+  line-height: 60px;
+  z-index: 2;;
+	bottom:40px;
+  right:40px;
+  font-weight: 600;;
+  cursor: pointer;
+	background-color:#5d30ff;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	//box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
 /*****************************/
 /*     20. Media Queries     */
 /*****************************/
@@ -852,9 +876,13 @@ a:hover.back-to-top {
   }
   /* end of extra pages */
 }
+.Toastify__toast--success {
+  background: #5d30ff !important;
+}
 
 .body-components {
-  background-image: linear-gradient(135deg, #5f1802, #ec5f31);
+  /* background-image: linear-gradient(135deg, #5f1802, #ec5f31); */
+  background: #a93512;
   min-height: calc(100vh);
   padding-top: 5.25rem;
 }
@@ -869,6 +897,9 @@ a:hover.back-to-top {
   }
   .form-control-radio-group label {
     padding: 12px 50px 12px 30px;
+  }
+  .body-components {
+    padding-top: 6.5rem;
   }
 }
 /* end of min-width width 1200px */

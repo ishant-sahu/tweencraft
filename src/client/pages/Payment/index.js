@@ -5,7 +5,7 @@ import PaymentComponent from '../../components/Payment/';
 
 class Payment extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+   // this.props.fetchSamples();
   }
 
   render() {

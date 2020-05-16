@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles.scss';
 import { videoFrame } from '../../images/index';
+import { Link } from 'react-router-dom';
 class Headers extends React.Component {
   componentDidMount() {
     if ($ && window) {
@@ -54,12 +55,12 @@ class Headers extends React.Component {
               <div className='col-lg-12'>
                 <div className={`${styles.textContainer}`}>
                   <h2 className={`${styles.h1}`}>
-                    CREATE YOUR OWN CARTOON VIDEOS
+                    ORDER YOUR VIDEOS NOW
                     <br />{' '}
-                    <span className={styles.jsRotating} id='js-rotating'>
+                    {/* <span className={styles.jsRotating} id='js-rotating'>
                       NO ANIMATION SKILL REQUIRED, TOUCH AND MOVE BODY, MAKE
                       YOUR VOICE CARTOONY, CREATE YOUR VIDEOS IN MINUTES
-                    </span>
+                    </span> */}
                   </h2>
                 </div>
               </div>
@@ -85,11 +86,6 @@ class Headers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='form-group'>
-              <button type='submit' className={`form-control-submit-button order-button`}>
-                ORDER NOW
-              </button>
             </div>
           </div>
         </div>

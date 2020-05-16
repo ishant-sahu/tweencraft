@@ -5,7 +5,7 @@ import CallOfActionComponent from '../../components/CallOfAction/';
 
 class CallOfAction extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+    //this.props.fetchSamples();
   }
 
   render() {

@@ -1,53 +1,87 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import styles from './styles.scss';
+const re = /^\d{10}$/;
 class LoginComponent extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-          email: '',
-          phone: '',
-          otp:''
-        };
-        this.onChange = this.onChange.bind(this);
-        this.submit = this.submit.bind(this);
-      }
-      onChange(e, field) {
-        let val = e.target.value;
+  constructor(props) {
+    super(props);
+    this.state = {
+      phone: '',
+      name: '',
+    };
+    this.onChange = this.onChange.bind(this);
+    this.submit = this.submit.bind(this);
+  }
+  handleNumberInput(value, limitDigits) {
+    let length = value.toString().length;
+    if (Number(value) < 0) {
+      return '';
+    }
+    if (
+      (limitDigits && length > limitDigits ? true : false) ||
+      isNaN(parseInt(value[length - 1]))
+    ) {
+      return value.toString().substr(0, length - 1);
+    }
+    return value;
+  }
+  onChange(e, field) {
+    let val = e.target.value;
+
+    if (field === 'phone') {
         this.setState({
-          [field]: val,
+          [field]: this.handleNumberInput(val,10),
         });
-      }
-      submit(event) {
-        event.preventDefault();
-        
-        axios
-          .post('/message', this.state)
-          .then((resp) =>{
-            this.setState({
-              name: '',
-              email: '',
-              phone: '',
-              message: ''
-            });
-            $('#cmsgSubmit').text('Message sent successfully');
-          })
-          .catch(function(error) {
-            console.log(error);
-          });
-          
-          
-      }
+    } else {
+      this.setState({
+        [field]: val,
+      });
+    }
+  }
+
+   
+  submit(event) {
+    event.preventDefault();
+    
+    const { name, phone } = this.state;
+    if(re.test(phone)){
+      this.props.sendEvent({ name, phone });
+      
+      toast.success('We have received your request.Our team will get back to you in some time.', {
+        position: "top-right",
+        autoClose:5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+    } else{
+      toast.error('Please enter a valid phone number', {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+    }
+    
+  }
   render() {
     return (
-      <div id='contact' className={`${styles.login}`}>
-         <div className='container'>
+      <div id='order-now' className={`${styles.login}`}>
+        <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <h2>LOGIN</h2>
+              <h2>ORDER</h2>
             </div>
           </div>
           <div className={`row ${styles.formWrapper}`}>
-            <div className='col-lg-4 offset-lg-4'>
+            <div className='col-lg-4 offset-lg-4 col-sm-12 offset-sm-0'>
               <form
                 id='contactForm'
                 data-toggle='validator'
@@ -86,18 +120,6 @@ class LoginComponent extends React.Component {
                   </label>
                   <div className='help-block with-errors'></div>
                 </div>
-                {/* <div className='form-group checkbox'>
-                  <input
-                    type='checkbox'
-                    id='cterms'
-                    value='Agreed-to-Terms'
-                    required
-                  />
-                  I have read and agree to Chimpoon's stated conditions in{' '}
-                  <a href='privacy-policy.html'>Privacy Policy</a> and{' '}
-                  <a href='terms-conditions.html'>Terms Conditions</a>
-                  <div className='help-block with-errors'></div>
-                </div> */}
                 <div className='form-group'>
                   <button type='submit' className='form-control-submit-button'>
                     SUBMIT
@@ -110,6 +132,7 @@ class LoginComponent extends React.Component {
             </div>
           </div>
         </div>
+        <ToastContainer />
       </div>
     );
   }

@@ -36,3 +36,5 @@ export { default as inDialogue } from './assets/in-dialogue.jpg';
 export { default as startLogo } from './assets/start-logo.jpg';
 export { default as endLogo } from './assets/end-logo.jpg';
 export { default as cornerLogo } from './assets/corner-logo.jpg';
+export { default as processPc } from './assets/process-pc.jpg';
+export { default as processMobile } from './assets/process-mobile.jpg';

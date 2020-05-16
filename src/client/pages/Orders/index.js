@@ -5,7 +5,7 @@ import OrdersComponent from '../../components/Orders';
 
 class Orders extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+   // this.props.fetchSamples();
   }
 
   render() {

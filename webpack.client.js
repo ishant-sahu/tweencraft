@@ -17,6 +17,7 @@ const getEntry = () => {
 };
 
 const getPlugins = () => {
+  const deployment = process.env.DEPLOYMENT;
   const plugins = [];
   if (isDev) {
     if (isSSR) {
@@ -30,11 +31,28 @@ const getPlugins = () => {
     }
   } else {
     if (!isSSR) {
-      plugins.push(
-        new HtmlWebpackPlugin({
-          template: './tools/index.html',
-        })
-      );
+      if(deployment === 'Github'){
+        plugins.push(
+          new HtmlWebpackPlugin({
+            template: './tools/github.html',
+            filename: 'index.html'
+          })
+        );
+        plugins.push(
+          new HtmlWebpackPlugin({
+            filename: '404.html',
+            template: './tools/404.html',
+          })
+        );
+      } else{
+        plugins.push(
+          new HtmlWebpackPlugin({
+            template: './tools/index.html',
+            filename: 'index.html'
+          })
+        );
+      }
+    
     }
   }
   plugins.push(

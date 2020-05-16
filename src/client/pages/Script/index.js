@@ -5,7 +5,7 @@ import ScriptComponent from '../../components/Script/';
 
 class Script extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+    //this.props.fetchSamples();
   }
 
   render() {

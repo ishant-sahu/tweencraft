@@ -5,7 +5,7 @@ import CharactersComponent from '../../components/Characters/';
 
 class Characters extends React.Component {
   componentDidMount() {
-    this.props.fetchSamples();
+    //this.props.fetchSamples();
   }
 
   render() {
